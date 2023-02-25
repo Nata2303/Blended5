@@ -42,9 +42,6 @@
 }
 
 @media screen and (min-width: 768px) {
- .container{
-    max-width: 734px;
-} 
 
 .footer{
   margin-bottom: 48px;
@@ -52,9 +49,6 @@
 }
 
 @media screen and (min-width: 1200px) {
- .container{
-    max-width: 1200px;
-} 
 
 .footer{
   margin-bottom: 80px;
