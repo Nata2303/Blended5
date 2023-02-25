@@ -1,0 +1,53 @@
+.triple-room-section {
+}
+.container {
+}
+.triple-room-galary {
+}
+.triple-room-galary-list {
+}
+.triple-room-galary-item {
+}
+.triple-room-describe {
+}
+.triple-room-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
+.triple-room-text {
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
+.triple-room-buttons {
+}
+
+.triple-room-link {
+  padding: 8px 18px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+  border: 0.8px solid var(--text-and-background-color-one);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.triple-room-btn {
+  border: 0.8px solid var(--text-and-background-color-one);
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
