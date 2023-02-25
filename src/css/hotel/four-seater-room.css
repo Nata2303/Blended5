@@ -1,0 +1,53 @@
+.four-room-section {
+}
+.container {
+}
+.four-room-galary {
+}
+.four-room-galary-list {
+}
+.four-room-galary-item {
+}
+.four-room-describe {
+}
+.four-room-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 0.94;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
+.four-room-text {
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
+.four-room-buttons {
+}
+
+.four-room-link {
+  padding: 8px 18px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+  border: 0.8px solid var(--text-and-background-color-one);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.four-room-btn {
+  border: 0.8px solid var(--text-and-background-color-one);
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-one);
+}
