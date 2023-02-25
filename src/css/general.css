@@ -11,19 +11,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-line-height: 1.29;
+    line-height: 1.29;
 }
 
-.list{
-  list-style: none;
-}
 
-.link{
-    text-decoration: none;
-}
 
 .container{
-    padding-top: 64px;
+padding-top: 64px;
 }
 
 .btn{
@@ -38,7 +32,7 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
  .container{
     padding-top: 80px;
 }
@@ -47,9 +41,9 @@ padding: 8px 24px;
 }   
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
  .container{
-    padding-top: 100px;
+   padding-top: 100px;
 }
 .btn{
 padding: 9px 24px;
