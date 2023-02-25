@@ -17,9 +17,7 @@
 
 
 .container{
-margin: 0 auto;
-padding-left: 15px;
-padding-right: 15px;
+padding-top: 64px;
 }
 
 .btn{
@@ -36,7 +34,7 @@ img {
 
 @media screen and (min-width: 768px) {
  .container{
-   max-width: 734px;
+    padding-top: 80px;
 }
 .btn{
 padding: 8px 24px;
@@ -45,7 +43,7 @@ padding: 8px 24px;
 
 @media screen and (min-width: 1440px) {
  .container{
-  max-width: 1405px;
+   padding-top: 100px;
 }
 .btn{
 padding: 9px 24px;
