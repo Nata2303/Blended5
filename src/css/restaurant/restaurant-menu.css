@@ -1,0 +1,12 @@
+:root{
+    --text-and-background-color-one: #F6F6F6;
+    --text-and-background-color-two: #121212;
+    --subtitel-and-background-color: #484848;
+    --background-gradient-two: linear-gradient(0deg, rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.2));
+    --background-gradient-one: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%);
+    --color-text-one:#F7F7F7;
+    --color-text-two:rgba(216, 215, 215, 0.5);
+}
+.container{
+  
+}
