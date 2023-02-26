@@ -1,6 +1,6 @@
 :root {
   --text-and-background-color-one: #f6f6f6;
-  --text-and-background-color-one: #121212;
+  --text-and-background-color-two: #121212;
   --subtitel-and-background-color: #484848;
   --background-gradient-two: linear-gradient(
     0deg,
@@ -48,9 +48,10 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-  /* .container {
-    padding-top: 100px;
-  } */
+  .container {
+    padding-left: 32px;
+  padding-right: 32px;
+  }
   .btn {
     padding: 9px 24px;
   }
