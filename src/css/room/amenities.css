@@ -1,3 +1,7 @@
+.section-amenities {
+  background-color: #121212;
+}
+
 .title-amenities {
   font-size: 28px;
   line-height: 1.14;
@@ -16,4 +20,10 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #f7f7f7;
+}
+
+.amenities-btn {
+  padding: 8px 18px;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 32px;
 }
