@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: var(--primery-color);
   background-color: var(--secondary-color);
 }
@@ -34,7 +34,7 @@ body {
 
 .logo-wrap::after {
   display: block;
-  content: " ";
+  content: ' ';
   height: 1px;
   width: 100vw;
   background-color: rgba(247, 247, 247, 0.2);
@@ -107,12 +107,10 @@ body {
 
 /* HEADER */
 
-.container {
+
+
+.relativ {
   position: relative;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header {
@@ -211,7 +209,7 @@ body {
 
 .current::after {
   display: block;
-  content: " ";
+  content: ' ';
   margin: 0 auto;
   margin-top: 2px;
   width: 4px;
@@ -257,19 +255,15 @@ body {
   color: var(--primery-color);
 }
 
-.variable.current::after{
-    background-color: var(--primery-color);
+.variable.current::after {
+  background-color: var(--primery-color);
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
+ 
 }
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
+  
 
   .mobile-icon {
     width: 24px;
@@ -309,9 +303,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
-  }
+ 
 
   .headar-soc-list {
     position: static;
