@@ -5,10 +5,48 @@
 .triple-room-galary {
 }
 .triple-room-galary-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+@media screen and (min-width: 1400px) {
+  .triple-room-galary-list {
+    gap: 32px;
+  }
+  .triple-room-galary-item:nth-child(1) {
+    order: 2;
+  }
+  .triple-room-galary-item:nth-child(2) {
+    order: 3;
+  }
+  .triple-room-galary-item:nth-child(3) {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .triple-room-galary-list {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .triple-room-galary-item:nth-child(1) {
+    order: 1;
+  }
+  .triple-room-galary-item:nth-child(2) {
+    order: 2;
+  }
+  .triple-room-galary-item:nth-child(3) {
+    order: 3;
+  }
+}
+
 .triple-room-galary-item {
 }
 .triple-room-describe {
+  margin-top: 32px;
+  margin-bottom: 28px;
 }
 .triple-room-title {
   font-weight: 700;
@@ -17,13 +55,18 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-and-background-color-one);
+  margin-bottom: 32px;
 }
 .triple-room-text {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-and-background-color-one);
 }
+.triple-room-text.first-part {
+  margin-bottom: 24px;
+}
 .triple-room-buttons {
+  display: flex;
 }
 
 .triple-room-link {
@@ -37,6 +80,7 @@
   color: var(--text-and-background-color-one);
   border: 0.8px solid var(--text-and-background-color-one);
   border-radius: 32px;
+  width: 128px;
   cursor: pointer;
 }
 
@@ -50,4 +94,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-and-background-color-one);
+  margin-left: 12px;
+  width: 117px;
 }

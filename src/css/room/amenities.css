@@ -1,3 +1,4 @@
+
 /*Секция Amenities Hotel Room*/
 
 .section-amenities {
@@ -17,6 +18,8 @@
 
   /*font-family: 'DM Sans', serif;*/
   font-weight: 700;
+
+.title-amenities {
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: -0.02em;
@@ -34,19 +37,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #f7f7f7;
-}
-
-.aminities-item::before {
-  display: inline-block;
-  content: '';
-  transform: translateY(-4px);
-
-  width: 3px;
-  height: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background-color: #f7f7f7;
 }
 
 .amenities-btn {
@@ -67,18 +57,10 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-    outline: 1px solid tomato;
-  }
-}
+
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    outline: 1px solid tomato;
-  }
-
+ 
   .title-amenities {
     margin-bottom: 40px;
   }
