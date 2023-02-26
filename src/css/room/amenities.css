@@ -1,0 +1,19 @@
+.title-amenities {
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.amenities-list {
+  list-style-type: disc;
+}
+
+.aminities-item {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
