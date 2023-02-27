@@ -1,0 +1,101 @@
+.welcome {
+    padding-top: 64px;
+}
+
+.welcome-container {}
+
+.welcome-container-desc {
+    display: none;
+}
+.welcome-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 335px;
+}
+
+.welcome-accent {
+    font-style: italic;
+}
+
+.welcome-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    max-width: 351px;
+    margin-top: 32px;
+}
+
+.welcome-text-first {
+    max-width: 310px;
+}
+
+.welcome-image {
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 375px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+.welcome-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: -0.02em;
+        max-width: 434px;}
+
+.welcome-text-common {
+    display: flex;
+}
+.welcome-text {
+    max-width: 372px;
+    margin-top: 60px;
+}
+.welcome-text-first {
+    margin-right: 32px;
+}
+
+.welcome-image {
+    margin-top: 40px;
+}
+.welcome-container-mob {
+    width: 704px;
+}
+}
+
+@media screen and (min-width: 1140px) {
+.welcome-container {
+    display: flex;
+    padding-top: 100px;
+}
+.welcome-container-mob {
+    display: none;
+}
+.welcome-container-desc {
+    display: block;
+}
+.welcome-text-common {
+    display: block;
+    margin-top: 310px;
+}
+.welcome-image {
+    margin-right: 32px;
+    margin-top: 0;
+}
+.welcome-title {
+}
+.welcome-text {
+    margin: 0;
+}
+
+.welcome-text-first {
+    margin-bottom: 24px;
+}
+}
