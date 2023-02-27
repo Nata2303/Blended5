@@ -177,9 +177,9 @@ margin-bottom: 40px;
 top: 532px;
 }
 }
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1140px){
 .container-about{
-  max-width: 1376px;
+  max-width: 1076px;
 }
 .About-a-complex-list{
   display: flex;
