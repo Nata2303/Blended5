@@ -7,6 +7,41 @@
     --color-text-one:#F7F7F7;
     --color-text-two:rgba(216, 215, 215, 0.5);
 }
-.container{
-  
+.menu-resto{
+    padding-left: 20px;
+     padding-right: 20px;
+}
+.restaurant-menu-container{
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 375px;
+      
+    }
+
+.menu-resto {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #121212;
+}
+.restaurant-menu { 
+
+}
+.titel-menu {
+}
+.titel-menu-two {
+}
+.food-menu {
+}
+.dishes {
+}
+.name_dish {
+}
+.portion {
+}
+.ingredients {
+}
+.price {
+}
+.restaurant-menu-btn {
 }
