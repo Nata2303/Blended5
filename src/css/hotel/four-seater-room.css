@@ -5,10 +5,24 @@
 .four-room-galary {
 }
 .four-room-galary-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+  .four-room-galary-list {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
 .four-room-galary-item {
 }
 .four-room-describe {
+  margin-top: 32px;
+  margin-bottom: 28px;
 }
 .four-room-title {
   font-weight: 700;
@@ -17,6 +31,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-and-background-color-one);
+  margin-bottom: 32px;
 }
 .four-room-text {
   letter-spacing: -0.02em;
@@ -24,6 +39,7 @@
   color: var(--text-and-background-color-one);
 }
 .four-room-buttons {
+  display: flex;
 }
 
 .four-room-link {
@@ -37,6 +53,7 @@
   color: var(--text-and-background-color-one);
   border: 0.8px solid var(--text-and-background-color-one);
   border-radius: 32px;
+  width: 128px;
   cursor: pointer;
 }
 
@@ -50,4 +67,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--text-and-background-color-one);
+  margin-left: 14px;
+  width: 117px;
 }

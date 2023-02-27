@@ -1,3 +1,4 @@
+
 /*Секция Amenities Hotel Room*/
 
 .section-amenities {
@@ -33,19 +34,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #f7f7f7;
-}
-
-.aminities-item::before {
-  display: inline-block;
-  content: '';
-  transform: translateY(-4px);
-
-  width: 3px;
-  height: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background-color: #f7f7f7;
 }
 
 .amenities-btn {
@@ -87,10 +75,6 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-
-  .amenities-toiletries-imag {
-    width: 365px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -98,6 +82,8 @@
     width: 1440px;
   }
 
+@media screen and (min-width: 768px) {
+ 
   .title-amenities {
     font-size: 40px;
     line-height: 1.1;
