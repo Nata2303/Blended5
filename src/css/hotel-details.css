@@ -1,0 +1,31 @@
+.hotel-det {
+    background-color: var(--text-and-background-color-two);
+    padding-top: 32px;
+}
+.container-hotel-det {
+
+}
+.hotel-det-title {
+    font-weight: 500;
+        font-size: 40px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+}
+.hotel-det-text {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #F7F7F7;
+    margin-top: 32px;
+    margin-bottom: 33px;
+}
+
+.btn {}
+
+.hotel-det-btn-book {}
+
+.hotel-det-btn-view {}
