@@ -11,8 +11,9 @@
   gap: 12px;
 
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  top: 420px;
+  right: 0%;
+  width: 212px;
 }
 
 .mane-user {
@@ -30,25 +31,14 @@
 
 .rating {
   font-size: 12px;
-  
   color: #f6f6f6;
 }
 /* components*/
 
-.container{
+.container-about{
   max-width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding:0;
 }
-.section{
-  
-}
-
-
-
-
-
-
 
 .About-a-complex-list-container{
 position: relative;
@@ -57,10 +47,198 @@ position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  border: 1px solid rgb(26, 9, 71);
-  
+  padding: 0%;
+  margin-bottom: 32px;
 }
-.About-a-complex-item{
-  
-  border: 1px solid red;
+
+.restaurant-hotel-title{
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--subtitel-and-background-color);
+margin-bottom: 18px;
+}
+
+.restaurant-hotel-text{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-and-background-color-two);
+margin-bottom: 14px;
+}
+.restaurant-hotel-subtext{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-and-background-color-two);
+}
+.About-a-complex{
+  padding-top: 64px;
+}
+.text{
+  margin-bottom: 64px;
+}
+.about-bar{
+  position: relative;
+}
+.content-message-business{
+  background-color: #121212;
+  padding: 10px 14px;
+  border-radius: 6px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+
+  position: absolute;
+  top: 272px;
+  left: 0%;
+  width: 212px;
+}
+.text-business{
+margin-top: 54px;
+}
+.business-class-title{
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--subtitel-and-background-color);
+margin-bottom: 18px;
+}
+.business-class-text{
+ font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-and-background-color-two);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-and-background-color-two);
+margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .container-about{
+  max-width: 704px;
+}
+.About-a-complex-list{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0%;
+  margin-bottom: 32px;
+}
+.position{
+  position: absolute;
+  left: 300px;
+  top: 209px;
+}
+.content-message {
+  top: 176px;
+  left: 370px;
+  width: 212px;
+}
+.text{
+  width: 472px;
+  margin-bottom: 80px;
+}
+.content-message-business{
+  top: 303px;
+  left: 67px;
+  width: 212px;
+}
+.about-bar{
+  width: auto;
+  height: 841px;
+}
+.about-position{
+  position: absolute;
+  right: 0%;
+  width: auto;
+  height: 492px;
+}
+.flex{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 32px;
+  margin-top: 40px;
+  position: absolute;
+  left: 0px;
+top: 532px;
+}
+}
+@media screen and (min-width: 1440px){
+.container-about{
+  max-width: 1376px;
+}
+.About-a-complex-list{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0%;
+  margin-bottom: 100px;
+}
+.position{
+  position: absolute;
+  left: 300px;
+  top: 209px;
+}
+.content-message {
+  top: 176px;
+  left: 370px;
+  width: 212px;
+}
+.flex-desktop-about{
+  position: relative;
+}
+.text{
+  width: 472px;
+  margin-bottom: 80px;
+  position: absolute;
+  top: 0;
+  left: 846px;
+  top: 199px;
+}
+.content-message-business{
+  top: 303px;
+  left: 563px;
+  width: 212px;
+}
+.about-bar{
+  width: auto;
+  height: 841px;
+  padding-left: 176px;
+}
+.about-position{
+  position: absolute;
+  right: 0%;
+  width: auto;
+  height: 492px;
+}
+.flex{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 54px;
+  margin-top: 40px;
+  position: absolute;
+top: 127px;
+}
+.restaurant-hotel-text{
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 14px;
+}
+.restaurant-hotel-subtext{
+  font-size: 18px;
+line-height: 1.33;
+}
 }
