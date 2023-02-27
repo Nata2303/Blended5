@@ -5,21 +5,19 @@
   background-color: #121212;
   padding-top: 40px;
   padding-bottom: 64px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .amenities.container {
-  position: relative;
   margin-right: auto;
   margin-left: auto;
 }
 
 .title-amenities {
   margin-bottom: 28px;
-
-  /*font-family: 'DM Sans', serif;*/
+  font-family: 'DM Sans', serif;
   font-weight: 700;
-
-.title-amenities {
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: -0.02em;
@@ -47,7 +45,6 @@
   border-radius: 32px;
   width: 175px;
 
-  font-family: inherit;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -56,12 +53,35 @@
   color: #f7f7f7;
 }
 
-@media screen and (min-width: 375px) {
+.amenities-bathroom-image {
+  position: relative;
+  margin-left: auto;
+}
 
+.amenities-toiletries-image {
+  position: absolute;
+}
 
+@media screen and (min-width: 1440px) {
+  .amenities.container {
+    width: 1440px;
+  }
+}
 @media screen and (min-width: 768px) {
  
   .title-amenities {
-    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .aminities-item {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .block-amenities {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 232px;
   }
 }
