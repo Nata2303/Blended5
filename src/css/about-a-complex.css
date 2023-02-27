@@ -1,0 +1,66 @@
+/* components*/
+.content-message {
+  /* max-width: 212px; */
+  background-color: #121212;
+  padding: 10px 14px;
+  border-radius: 6px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.mane-user {
+  font-size: 14px;
+  line-height: 1;
+  color: #f6f6f6;
+  margin-bottom: 7px;
+}
+
+.user-rating {
+  font-size: 12px;
+  
+  color: #575757;
+}
+
+.rating {
+  font-size: 12px;
+  
+  color: #f6f6f6;
+}
+/* components*/
+
+.container{
+  max-width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section{
+  
+}
+
+
+
+
+
+
+
+.About-a-complex-list-container{
+position: relative;
+}
+.About-a-complex-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid rgb(26, 9, 71);
+  
+}
+.About-a-complex-item{
+  
+  border: 1px solid red;
+}
