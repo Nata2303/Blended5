@@ -1,5 +1,9 @@
 /* SLIDER */
 
+img{
+  width: 100%;
+}
+
 .swiper-position{
   position: relative;
 }
@@ -71,6 +75,12 @@
   color: var(--primery-color);
 
   margin-bottom: 24px;
+}
+
+.other-btn:is(:hover, :focus){
+  border-color: var(--primery-color);
+  color: var(--color-variable);
+  background-color: var(--primery-color);
 }
 
 .other-title-accent{
