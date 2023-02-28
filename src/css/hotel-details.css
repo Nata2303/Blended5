@@ -1,6 +1,7 @@
 .hotel-det {
     background-color: var(--text-and-background-color-two);
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 .container-hotel-det {
 
@@ -22,10 +23,192 @@
         color: #F7F7F7;
     margin-top: 32px;
     margin-bottom: 33px;
+    max-width: 335px;
 }
 
-.btn {}
+.hotel-det-btns-desk {
+    display: none;
+}
 
-.hotel-det-btn-book {}
+.hotel-det-pic-block-one {
+margin-bottom: 27px;
+}
 
-.hotel-det-btn-view {}
+.hotel-det-pic-block-two {
+display: flex;
+gap: 20px;
+margin-bottom: 82px;
+}
+
+.pic-four {
+display: none;
+}
+
+.pic-five {
+display: none;
+}
+.hotel-det-pic-block-one-tab {
+    display: none;
+}
+
+.hotel-det-pic-block-two-tab {
+    display: none;
+}
+
+
+.hotel-det-btns-list {
+    display: flex;
+    justify-content: center;
+}
+.hotel-det-btns-link {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.hotel-det-btn {
+    padding: 8px 18px;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    background: none;
+    min-width: 131px;
+}
+
+
+
+.hotel-det-btn-book {
+margin-right: 14px;
+}
+
+.hotel-det-btn-view {
+
+}
+
+
+@media screen and (min-width: 375px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+.pic-one {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+
+.pic-four {
+display: flex;
+margin-bottom: 16px;
+}
+
+.pic-five {
+display: flex;
+}
+
+.hotel-det-title {
+    font-size: 68px;
+    margin-right: 32px;
+}
+
+.hotel-det-text-block {
+    display: flex;
+    margin-bottom: 80px;
+}
+.hotel-det-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    max-width: 362px;
+}
+.hotel-det {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.hotel-det-pictures {
+display: flex;
+gap: 16px;
+margin-bottom: 40px;
+}
+
+.hotel-det-pic-block-one {
+    display: none;
+}
+
+.hotel-det-pic-block-two {
+    display: none;
+}
+
+.hotel-det-pic-block-one-tab {
+display: block;
+}
+.hotel-det-pic-block-two-tab {
+display: block;
+}
+
+.hotel-det-pic-block-three-tab {
+display: block;
+}
+
+.hotel-det-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+.container-hotel-det {
+   
+}
+.hotel-det-btns-desk {
+    
+    display: flex;
+        align-items: center;
+        margin-right: auto;
+}
+.hotel-det-btns {
+    display: none;
+}
+.hotel-det-desk-block {
+    display: flex;
+}
+
+.hotel-det-btns-desk {
+   display: block;
+   position: relative;
+   align-items: baseline;
+   margin-left: 320px;
+}
+.hotel-det-btns-list {
+    margin: 0;
+    padding: 0;
+}
+.hotel-det-btn {
+    display: block;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.hotel-det-pictures {
+    
+    gap: 32px;
+    margin-bottom: 60px;
+}
+
+.pic-one {
+    margin-bottom: 28px;
+}
+
+
+.pic-four {
+    margin-bottom: 28px;
+}
+}
