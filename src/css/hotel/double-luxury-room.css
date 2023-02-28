@@ -61,6 +61,8 @@
   border-radius: 32px;
   width: 128px;
   cursor: pointer;
+  transition: border-color var(--cubik-bezier), color var(--cubik-bezier),
+    background-color var(--cubik-bezier);
 }
 
 .double-lux-btn {
@@ -75,6 +77,16 @@
   color: var(--text-and-background-color-two);
   margin-left: 12px;
   padding: 8px 18px;
+  transition: border-color var(--cubik-bezier), color var(--cubik-bezier),
+    background-color var(--cubik-bezier);
+}
+
+.double-lux-link:hover,
+.double-lux-link:focus,
+.double-lux-btn:hover,
+.double-lux-btn:focus {
+  background-color: var(--text-and-background-color-two);
+  color: #f7f7f7;
 }
 
 @media screen and (min-width: 375px) {
