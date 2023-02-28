@@ -23,5 +23,8 @@
     <symbol id="icon-menu-open" viewBox="0 0 32 32">
       <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M4 16h24M4 8h24M4 24h16"/>
     </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#f7f7f7" style="stroke: var(--color1, #f7f7f7)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8" d="M22.666 9.333l-13.333 13.334M9.333 9.333l13.333 13.334"></path>
+</symbol>
   </defs>
 </svg>
