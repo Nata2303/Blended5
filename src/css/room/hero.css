@@ -8,9 +8,10 @@
 
 /* SLIDER */
 
-img{
+.img-slide{
   width: 100%;
 }
+
 
 .swiper-position{
   position: relative;

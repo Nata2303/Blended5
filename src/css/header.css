@@ -321,6 +321,11 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+
+  .container{
+    width: 1440px;
+  }
+
   .headar-soc-list {
     position: static;
   }
