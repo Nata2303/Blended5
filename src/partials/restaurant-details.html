@@ -1,0 +1,123 @@
+<section class="restaurant">
+  <div class="container restaurant-container">
+   <ul class="restaurant-title-list list">
+    <li class="restaurant-title-item">
+      <h2 class="restaurant-title">restaurant</h2>
+      </li>
+      <li class="restaurant-title-item">
+      <p class="restaurant-suptitle">
+      Relax and unwind with our delicious offerings, 
+      available any time of day.
+    </p>
+   </li>
+   </ul>
+   <div class="restaurant-wrap">
+    <ul class="restaurant-btn list">
+      <li class="restaurant-btn-item">
+        <button type="button" class="btn" data-modal-open>Book a table</button>
+         <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close type="button" class="btn-close">
+              <svg width="13" height="13">
+                <use href="./img/sprite.svg#icon-close"></use>
+              </svg>
+            </button>
+            <p class="modal-title list">
+              book a table
+            </p>
+            <form class="form">
+                <label class="label-name">
+                <input type="text" class="modal-input" placeholder="Your name"  required>
+                 <span class="form-text">Who should book a table for?</span>
+               </label> 
+              <div class="select-wrap">
+                <label >
+               <select class="select" name="number">
+               <option class="option-number">NUMBER OF PEOPLE</option>
+               <option class="option-number" value="1">1</option>
+               <option class="option-number" value="2">2</option>
+               <option class="option-number" value="3">3</option>
+               <option class="option-number" value="5">5</option>
+              </select>
+              </label>
+              </div>
+                <label class="label-name">
+                <input type="tel" class="modal-input" placeholder="+ 38()"   required>
+                 <span class="form-text">Phone number</span>
+               </label>
+               
+               <div class="select-wrap">
+              <label class="label-name">
+                <select class="select" name="date-number">
+               <option value="date">TODAY</option>
+               <option value="1">02.02.2023</option>
+               <option value="2">03.02.2023</option>
+               <option value="3">04.02.2023</option>
+              </select>
+               <span class="form-text">What date to book?</span>
+              </label>
+               </div>
+              
+              <button type="submit" class="form-btn">make a reservation</button>
+            </form>
+          </div>
+        </div>
+      </li>
+      <li class="restaurant-btn-item">
+        <a href="../restaurant-page.html" class="resto-btn btn"
+          >View the menu</a
+        >
+      </li>
+    </ul> 
+    <ul class="restaurant-list list">
+      <li class="restaurant-item">
+        <picture>
+            <source  srcset="./img/restaurant/resto-desktop.jpg 1x, ./img/restaurant/resto-desktop@2x.jpg 2x"
+             media="(min-width:1440px)">
+             <source  srcset="./img/restaurant/resto-tablet.jpg 1x, ./img/restaurant/resto-tablet@2x.jpg 2x"
+             media="(min-width: 768px)">
+            <source   srcset="./img/restaurant/resto-mobile.jpg 1x, ./img/restaurant/resto-mobile@2x.jpg 2x"
+            media="(min-width: 375px)" >
+
+          <img src="./img/restaurant/resto-desktop.jpg" width="266" height="309" alt="" />
+        </picture>
+      </li>
+      <li class="restaurant-item">
+        <picture>
+            <source srcset="./img/restaurant/resto-desktop-2.jpg 1x, ./img/restaurant/resto-desktop-2@2x.jpg 2x"
+            media="(min-width:1440px)">
+          <img src="../img/restaurant/resto-desktop-2.jpg"  width="266" height="309" alt="" />
+        </picture>
+    </li>
+      <li class="restaurant-item">
+         <picture>
+            <source   srcset="./img/restaurant/resto-desktop-3.jpg 1x, ./img/restaurant/resto-desktop-3@2x.jpg 2x"
+            media="(min-width:1440px)">
+
+          <img src="./img/restaurant/resto-desktop-3.jpg"  width="266" height="309" alt="" />
+        </picture>
+    </li>
+      <li class="restaurant-item">
+         <picture>
+            <source srcset="./img/restaurant/resto-desktop-4.jpg 1x, ./img/restaurant/resto-desktop-4@2x.jpg 2x"
+            media="(min-width:1440px)">
+             <source srcset="./img/restaurant/resto-tablet-2.jpg 1x, ./img/restaurant/resto-tablet-2@2x.jpg 2x"
+            media="(min-width: 768px)">
+            <source srcset="./img/restaurant/resto-mobile-2.jpg 1x, ./img/restaurant/resto-mobile-2@2x.jpg 2x"
+            media="(min-width: 375px)">
+
+          <img src="./img/restaurant/resto-desktop-4.jpg" width="266" height="309" alt="" />
+        </picture>
+    </li>
+      <li class="restaurant-item">
+        <picture>
+            <source srcset="./img/restaurant/resto-desktop-5.jpg 1x, ./img/restaurant/resto-desktop-5@2x.jpg 2x"
+            media="(min-width:1440px)">
+
+          <img src="./img/restaurant/resto-desktop-5.jpg"  width="266" height="309" alt="" />
+        </picture>
+    </li>
+    </ul>
+  </div>
+  </div>
+</section>

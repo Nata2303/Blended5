@@ -128,7 +128,7 @@ color: var(--text-and-background-color-two);
 margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .container-about{
   max-width: 704px;
 }
@@ -171,19 +171,20 @@ margin-bottom: 40px;
   display: flex;
   flex-direction: row-reverse;
   gap: 32px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   position: absolute;
   left: 0px;
 top: 532px;
 }
 }
-@media screen and (min-width: 1140px){
+@media screen and (min-width: 1440px){
 .container-about{
-  max-width: 1076px;
+  max-width: 1376px;
 }
 .About-a-complex-list{
   display: flex;
   flex-wrap: nowrap;
+  justify-content: flex-start;
   padding: 0%;
   margin-bottom: 100px;
 }
@@ -214,9 +215,12 @@ top: 532px;
   width: 212px;
 }
 .about-bar{
-  width: auto;
-  height: 841px;
-  padding-left: 176px;
+  width: 1200px;
+  height: 492px;
+  margin-left: auto;
+}
+.about-bar-room{
+  width: 266px;
 }
 .about-position{
   position: absolute;
@@ -228,9 +232,9 @@ top: 532px;
   display: flex;
   flex-direction: row-reverse;
   gap: 54px;
-  margin-top: 40px;
   position: absolute;
 top: 127px;
+padding: 0%;
 }
 .restaurant-hotel-text{
 font-size: 18px;
@@ -240,5 +244,8 @@ margin-bottom: 14px;
 .restaurant-hotel-subtext{
   font-size: 18px;
 line-height: 1.33;
+}
+.text-business{
+  width: 263px;
 }
 }
