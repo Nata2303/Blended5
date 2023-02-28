@@ -1,132 +1,148 @@
 /*---------------location----------------*/
 
-.location-container{
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 375px;
+.location {
+  padding-top: 64px;
+  background-color: #f6f6f6;
+}
+
+.location-container {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 375px;
 }
 
 .location-title {
-    font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-bottom: 32px;
-    text-transform: uppercase;
-    color: var(--text-and-background-color-one);
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-two);
 }
 
-.location-iframe{
-    filter: grayscale(1);
-    box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
-    width: 100%;
-    margin-bottom: 32px;
+.location-iframe {
+  filter: grayscale(1);
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-bottom: 32px;
 }
 
 .location-address {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    max-width: 214px;
-    margin-bottom: 28px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #000000;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 214px;
+  margin-bottom: 28px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .location-suptitle {
-    font-weight: 500;
-    font-size: 14px;
-    margin-bottom: 12px;
-    line-height: 1.5;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: var(--text-and-background-color-one);
-}
-
-
-.location-link {
-    font-family: 'DM Sans';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
-    color: var(--text-and-background-color-one);
-}
-
-@media screen and (min-width: 768px) {
-
-    .location-container{
-        margin: 0 auto;
-        width: 768px;
-    }
-
-
-.location-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} 
-
-.location-address{
-    margin-bottom: 0;
-}
-
-.location-container{
-   padding-left: 32px;
-   padding-right: 32px;
-}
-
-.location-contacts{
-   display: flex;
-   justify-content: space-between;
-   align-items: end;
-}
-
-.location-iframe{
-  width: 100%;
-  height: 576px;
-}
-
-}
-
-@media screen and (min-width: 1440px){
- 
-.location-container{
-   width: 1376px;
-   margin: 0 auto;
-   display: flex;
-   position: relative;
-}
-
-.location-title{
-   position: absolute;
-   right: 35%;
-}
-
- .location-iframe{
-   width: 640px;
-   margin-bottom: 0;
-   margin-right: 32px;
-} 
-
-.location-suptitle {
-  font-weight: 700;
-  margin-bottom: 0;
-  margin-right: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color-two);
 }
 
 .location-list {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.location-link {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: var(--text-and-background-color-two);
+}
+
+@media screen and (min-width: 768px) {
+  .location {
+    padding-top: 80px;
+  }
+
+  .location-container {
+    margin: 0 auto;
+    width: 768px;
+  }
+
+  .location-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .location-address {
+    margin-bottom: 0;
+  }
+
+  .location-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .location-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .location-iframe {
+    width: 100%;
+    height: 576px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location {
+    padding-top: 100px;
+  }
+
+  .location-container {
+    width: 1376px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+  }
+
+   .location-title{
+    margin-bottom: 0;
+  }
+
+  .location-title {
+    position: absolute;
+    right: 35%;
+  }
+
+  .location-iframe {
+    width: 640px;
+    margin-bottom: 0;
+    margin-right: 32px;
+  }
+
+  .location-suptitle {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+
+  .location-list {
     display: flex;
     margin-left: 70px;
+  }
 }
-
-}
-
 
