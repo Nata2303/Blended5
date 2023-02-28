@@ -1,3 +1,12 @@
+:root {
+  --primery-color: #121212;
+  --secondary-color: #f7f7f7;
+  --accent-text-color: #d8d7d7;
+  --color-variable: #ffffff;
+  --cubik-bezier: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 /* SLIDER */
 
 img{
@@ -54,6 +63,7 @@ img{
 
 /* HOTEL-HERO */
 
+
 .header.other-page {
   position: static;
   background-color: var(--color-variable);
@@ -108,6 +118,8 @@ img{
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--primery-color);
+
+  transition: border-color var(--cubik-bezier), color var(--cubik-bezier), background-color var(--cubik-bezier) ;
 }
 
 .other-text {
