@@ -4,6 +4,7 @@
   padding-top: 80px;
   padding-bottom: 32px;
   background-color: var(--text-and-background-color-one);
+  z-index: -1;
   position: relative;
 }
 
