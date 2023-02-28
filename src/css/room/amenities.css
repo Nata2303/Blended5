@@ -83,16 +83,12 @@
 @media screen and (max-width: 767px) {
   .amenities.container {
     width: 335px;
-
-    outline: 1px solid tomato;
   }
 }
 
 @media screen and (min-width: 768px) {
   .amenities.container {
     width: 704px;
-
-    outline: 1px solid tomato;
   }
 
   .title-amenities {
@@ -128,7 +124,6 @@
 
   .amenities.container {
     width: 1373px;
-    outline: 1px solid tomato;
   }
 
   .block-amenities {
