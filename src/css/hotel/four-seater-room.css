@@ -1,43 +1,48 @@
+.list {
+  list-style: none;
+}
+
 .four-room-section {
+  padding-top: 64px;
 }
-.container {
+
+.container-four-room {
+  max-width: 335px;
+  padding: 0;
 }
-.four-room-galary {
-}
+
 .four-room-galary-list {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 480px) {
-  .four-room-galary-list {
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 20px;
-  }
-}
-
-.four-room-galary-item {
-}
 .four-room-describe {
   margin-top: 32px;
   margin-bottom: 28px;
 }
+
 .four-room-title {
   font-weight: 700;
   font-size: 32px;
   line-height: 0.94;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--text-and-background-color-one);
+  color: var(--text-and-background-color-two);
   margin-bottom: 32px;
 }
+
 .four-room-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--text-and-background-color-one);
+  color: var(--text-and-background-color-two);
 }
+
 .four-room-buttons {
   display: flex;
 }
@@ -50,15 +55,15 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--text-and-background-color-one);
-  border: 0.8px solid var(--text-and-background-color-one);
+  color: var(--text-and-background-color-two);
+  border: 0.8px solid var(--text-and-background-color-two);
   border-radius: 32px;
-  width: 128px;
+  text-align: center;
   cursor: pointer;
 }
 
 .four-room-btn {
-  border: 0.8px solid var(--text-and-background-color-one);
+  border: 0.8px solid var(--text-and-background-color-two);
   background-color: transparent;
   font-family: inherit;
   font-weight: 400;
@@ -66,7 +71,148 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--text-and-background-color-one);
+  color: var(--text-and-background-color-two);
   margin-left: 14px;
-  width: 117px;
+}
+
+.four-room-link:hover,
+.four-room-link:focus,
+.four-room-btn:hover,
+.four-room-btn:focus {
+  background-color: var(--text-and-background-color-two);
+  color: #f7f7f7;
+}
+
+@media screen and (min-width: 768px) {
+  .four-room-section {
+    padding-top: 80px;
+  }
+
+  .container-four-room {
+    max-width: 704px;
+  }
+
+  .four-room-galary-list {
+    position: relative;
+    justify-content: start;
+    align-items: end;
+    row-gap: 0;
+    column-gap: 0;
+  }
+
+  .four-room-galary-item:nth-child(1) {
+    order: 3;
+    margin-left: 32px;
+  }
+
+  .four-room-galary-item:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 118px;
+    order: 1;
+  }
+
+  .four-room-galary-item:nth-child(3) {
+    order: 2;
+  }
+
+  .four-room-describe {
+    max-width: 475px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .four-room-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .four-room-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .four-room-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .four-room-link {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+
+  .four-room-btn {
+    line-height: 1.71;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .four-room-section {
+    padding-top: 100px;
+  }
+
+  .container-four-room {
+    max-width: 1376px;
+  }
+
+  .four-room-galary-list {
+    position: static;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .four-room-galary-item:nth-child(1) {
+    order: 2;
+    margin-right: 0;
+  }
+
+  .four-room-galary-item:nth-child(2) {
+    position: static;
+    order: 3;
+  }
+
+  .four-room-galary-item:nth-child(3) {
+    order: 1;
+  }
+
+  .four-room-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .four-room-describe {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .four-room-title {
+    margin-bottom: 40px;
+  }
+
+  .four-room-buttons {
+    margin-top: 50px;
+  }
+
+  .four-room-link {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .four-room-btn {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .four-room-galary-list {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 19px;
+  }
 }
