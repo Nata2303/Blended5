@@ -1,5 +1,13 @@
 /*HOME-HERO */
 
+:root {
+  --primery-color: #121212;
+  --secondary-color: #f7f7f7;
+  --accent-text-color: #d8d7d7;
+  --color-variable: #ffffff;
+  --cubik-bezier: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .section.hero {
   padding-top: 429px;
   padding-bottom: 40px;
@@ -24,6 +32,8 @@
   border: 0.8px solid var(--secondary-color);
   border-radius: 32px;
   background-color: transparent;
+
+  transition: background-color var(--cubik-bezier), border-color var(--cubik-bezier);
 }
 
 .home-btn-list {
@@ -49,6 +59,8 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--secondary-color);
+
+  transition: color var(--cubik-bezier);
 }
 
 .home-text-wrap {
