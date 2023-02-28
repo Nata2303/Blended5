@@ -10,136 +10,670 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/Blended5/assets/styles-db592d80.css">
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />    
+
+    <link rel="stylesheet" href="/Blended5/assets/styles-9644eb96.css">
   </head>
   <body>
     <main>
       <header class="header variable">
-      <div class="mobile-menu" data-menu>
-          <div class=" menu-container container">
-             <button type="button" class="header-btn close" data-menu-close>
-          <svg class="header-icon close">
-            <use
-              class="close-icon"
-              href="/Blended5/assets/sprite-b6fdcf84.svg#icon-menu-close"></use>
-          </svg>
-        </button>
-        <div class="logo-wrap">
-            <a class="header-link header-title" href="./index.html"
-              >Mimino<span class="header-text"
-                >restaurant-hotel complex</span
-              ></a
-            >
-          </div>
-            <ul class="mobile-menu-nav-list">
-              <li>
-                <a class="mobile-link" href="./index.html">Home</a>
-              </li>
-              <li>
-                <a class="mobile-link" href="./hotel.html">Hotel</a>
-              </li>
-              <li>
-                <a class="mobile-link" href="./restaurant.html">Restaurant</a>
-              </li>
-            </ul>
+  <div class="mobile-menu" data-menu>
+    <div class="menu-container container">
+      <button type="button" class="header-btn close" data-menu-close>
+        <svg class="header-icon close">
+          <use class="close-icon" href="/Blended5/assets/sprite-b6fdcf84.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+      <div class="logo-wrap">
+        <a class="header-link header-title" href="./index.html"
+          >Mimino<span class="header-text">restaurant-hotel complex</span></a
+        >
+      </div>
+      <ul class="mobile-menu-nav-list">
+        <li>
+          <a class="mobile-link" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="mobile-link" href="./hotel.html">Hotel</a>
+        </li>
+        <li>
+          <a class="mobile-link" href="./restaurant.html">Restaurant</a>
+        </li>
+      </ul>
 
-            <ul class="mobile-menu-soc-list">
-              <li>
-                <a target="_blank" href="https://www.instagram.com/">
-                  <svg class="mobile-icon">
-                    <use
-                      class="home-icon"
-                      href="/Blended5/assets/sprite-b6fdcf84.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://uk-ua.facebook.com/">
-                  <svg class="mobile-icon">
-                    <use
-                      class="home-icon"
-                      href="/Blended5/assets/sprite-b6fdcf84.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://twitter.com/?lang=uk">
-                  <svg class="mobile-icon">
-                    <use
-                      class="home-icon"
-                      href="/Blended5/assets/sprite-b6fdcf84.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
+      <ul class="mobile-menu-soc-list">
+        <li>
+          <a target="_blank" href="https://www.instagram.com/">
+            <svg class="mobile-icon">
+              <use
+                class="home-icon"
+                href="/Blended5/assets/sprite-b6fdcf84.svg#icon-instagram"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://uk-ua.facebook.com/">
+            <svg class="mobile-icon">
+              <use
+                class="home-icon"
+                href="/Blended5/assets/sprite-b6fdcf84.svg#icon-facebook"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/?lang=uk">
+            <svg class="mobile-icon">
+              <use class="home-icon" href="/Blended5/assets/sprite-b6fdcf84.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <button type="button" class="header-btn open" data-menu-open>
+      <svg class="header-icon">
+        <use
+          class="burger-icon variable"
+          href="/Blended5/assets/sprite-b6fdcf84.svg#icon-menu-open"
+        ></use>
+      </svg>
+    </button>
+    <div class="nav-wrap">
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li>
+            <a class="header-nav-link variable" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a class="header-nav-link variable current" href="./hotel.html"
+              >Hotel</a
+            >
+          </li>
+          <li>
+            <a class="header-nav-link variable" href="./restaurant.html"
+              >Restaurant</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="logo-wrap">
+        <a class="header-link header-title variable" href="./index.html"
+          >Mimino<span class="header-text variable"
+            >restaurant-hotel complex</span
+          ></a
+        >
+      </div>
+      <ul class="headar-soc-list">
+        <li>
+          <a
+            class="header-soc-link"
+            target="_blank"
+            href="https://www.instagram.com/"
+          >
+            <svg class="header-soc-icon">
+              <use
+                class="home-icon variable"
+                href="/Blended5/assets/sprite-b6fdcf84.svg#icon-instagram"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            class="header-soc-link"
+            target="_blank"
+            href="https://uk-ua.facebook.com/"
+          >
+            <svg class="header-soc-icon">
+              <use
+                class="home-icon variable"
+                href="/Blended5/assets/sprite-b6fdcf84.svg#icon-facebook"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            class="header-soc-link"
+            target="_blank"
+            href="https://twitter.com/?lang=uk"
+          >
+            <svg class="header-soc-icon">
+              <use
+                class="home-icon variable"
+                href="/Blended5/assets/sprite-b6fdcf84.svg#icon-twitter"
+              ></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<script src="../main.js"></script>
+
+      <!-- HERO -->
+<section class="other-page-hero">
+  <div class="container">
+    <div class="other-wrap">
+      <div class="hero-position">
+        <h1 class="other-hero-title">hotel</h1>
+        <ul class="other-btn-list">
+          <li class="other-btn-item">
+            <button class="other-btn" type="button">book a room</button>
+          </li>
+          <li class="other-btn-item">
+            <button class="other-btn" type="button">View prices</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SLIDER -->
+      <div class="swiper-position">
+        <div class="slider-img swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-1.jpg    1x,
+                    ../img/desktop-slide/desk-slide-1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-1.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-1.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="img-slide"
+                  src="../img/mobile-slider/mobile-slide-1.jpg"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-2.jpg    1x,
+                    ../img/desktop-slide/desk-slide-2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-2.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-2.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-2.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-3.jpg    1x,
+                    ../img/desktop-slide/desk-slide-3@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-3.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-3@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-3.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-3@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-3.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-4.jpg    1x,
+                    ../img/desktop-slide/desk-slide-4@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-4.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-4@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-4.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-4@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-4.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-5.jpg    1x,
+                    ../img/desktop-slide/desk-slide-5@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-5.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-5@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-5.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-5@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-5.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-6.jpg    1x,
+                    ../img/desktop-slide/desk-slide-6@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-6.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-6@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-6.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-6@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-6.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-7.jpg    1x,
+                    ../img/desktop-slide/desk-slide-7@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-7.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-7@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-7.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-7@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-7.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-8.jpg    1x,
+                    ../img/desktop-slide/desk-slide-8@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-8.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-8@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-8.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-8@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-8.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-9.jpg    1x,
+                    ../img/desktop-slide/desk-slide-9@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-9.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-9@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-9.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-9@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-9.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-10.jpg    1x,
+                    ../img/desktop-slide/desk-slide-10@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-10.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-10@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-10.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-10@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-10.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-11.jpg    1x,
+                    ../img/desktop-slide/desk-slide-11@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-11.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-11@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-11.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-11@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-11.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-12.jpg    1x,
+                    ../img/desktop-slide/desk-slide-12@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-12.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-12@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-12.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-12@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-12.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-13.jpg    1x,
+                    ../img/desktop-slide/desk-slide-13@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-13.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-13@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-13.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-13@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-13.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-14.jpg    1x,
+                    ../img/desktop-slide/desk-slide-14@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-14.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-14@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-14.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-14@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-14.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture>
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="
+                    ../img/desktop-slide/desk-slide-15.jpg    1x,
+                    ../img/desktop-slide/desk-slide-15@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ../img/tablet-slader/tablet-slide-15.jpg    1x,
+                    ../img/tablet-slader/tablet-slide-15@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 375px)"
+                  srcset="
+                    ../img/mobile-slider/mobile-slide-15.jpg    1x,
+                    ../img/mobile-slider/mobile-slide-15@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="../img/mobile-slider/mobile-slide-15.jpg"
+                  alt="building"
+                />
+              </picture>
+            </div>
           </div>
         </div>
-      <div class="container">
-        <button type="button" class="header-btn open" data-menu-open>
-          <svg class="header-icon ">
-            <use
-              class="burger-icon variable"
-              href="/Blended5/assets/sprite-b6fdcf84.svg#icon-menu-open"></use>
-          </svg>
-        </button>
-        <div class="nav-wrap">
-          <nav class="header-nav">
-            <ul class="header-nav-list">
-              <li>
-                <a class="header-nav-link variable " href="./index.html">Home</a>
-              </li>
-              <li>
-                <a class="header-nav-link variable current" href="./hotel.html">Hotel</a>
-              </li>
-              <li>
-                <a class="header-nav-link variable" href="./restaurant.html"
-                  >Restaurant</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <div class="logo-wrap">
-            <a class="header-link header-title variable " href="./index.html"
-              >Mimino<span class="header-text variable"
-                >restaurant-hotel complex</span
-              ></a
-            >
-          </div>
-          <ul class="headar-soc-list">
-            <li>
-              <a class="header-soc-link" target="_blank" href="https://www.instagram.com/">
-                <svg class="header-soc-icon">
-                  <use
-                    class="home-icon variable"
-                    href="/Blended5/assets/sprite-b6fdcf84.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="header-soc-link" target="_blank" href="https://uk-ua.facebook.com/">
-                <svg class="header-soc-icon">
-                  <use
-                    class="home-icon variable"
-                    href="/Blended5/assets/sprite-b6fdcf84.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="header-soc-link" target="_blank" href="https://twitter.com/?lang=uk">
-                <svg class="header-soc-icon">
-                  <use
-                    class="home-icon variable"
-                    href="/Blended5/assets/sprite-b6fdcf84.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="btn-slider-wrap">
+          <div class="btn-slider swiper-button-prev"></div>
+          <div class="btn-slider swiper-button-next"></div>
         </div>
       </div>
-    </header>
-    <script src="../main.js"></script>
-      
+    </div>
+    <p class="other-text">
+      Whether you're in the mood for a hearty breakfast, a light lunch, or
+      <span class="other-text-accent">a romantic dinner</span>, our menu has
+      something for everyone.
+    </p>
+  </div>
+</section>
+
 <section class="double-lux">
   <div class="double-lux-container">
     <ul class="double-lux-img-list list">
@@ -585,5 +1119,7 @@
     </ul>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/slider-hotel.js"></script>
   </body>
 </html>
