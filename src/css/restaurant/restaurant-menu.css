@@ -65,4 +65,23 @@ color: rgba(216, 215, 215, 0.5);
 
 }
 .restaurant-menu-btn {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: var(--color-text-one);
+padding-top: 8px;
+padding-right: 18px;
+padding-left: 18px;
+padding-bottom: 8px;
+background-color: transparent;
+border: 0.8px solid #F7F7F7;
+border-radius: 32px;
+margin-bottom: 64px;
 }
+.restaurant-menu-btn:hover,
+.restaurant-menu-btn:focus{
+    background-color: var(--color-text-one);
+    color: var(--text-and-background-color-two);
+}
+
