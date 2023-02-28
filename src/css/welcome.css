@@ -1,5 +1,6 @@
 .welcome {
     padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .welcome-container {}
@@ -38,6 +39,7 @@
 
 .welcome-image {
     margin-top: 32px;
+    
 }
 
 @media screen and (min-width: 375px) {
@@ -70,7 +72,7 @@
 }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1440px) {
 .welcome-container {
     display: flex;
     padding-top: 100px;
@@ -83,7 +85,7 @@
 }
 .welcome-text-common {
     display: block;
-    margin-top: 310px;
+    margin-top: 296px;
 }
 .welcome-image {
     margin-right: 32px;
