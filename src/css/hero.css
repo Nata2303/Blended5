@@ -34,6 +34,14 @@
   margin-bottom: 66px;
 }
 
+.hero-button:is(:hover, :focus) {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.hero-button:is(:hover, :focus) > .hero-btn-link {
+  color: var(--primery-color);
+}
+
 .hero-btn-link {
   font-weight: 400;
   font-size: 14px;
