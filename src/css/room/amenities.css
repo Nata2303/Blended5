@@ -1,22 +1,28 @@
-
 /*Секция Amenities Hotel Room*/
 
 .section-amenities {
   background-color: #121212;
   padding-top: 40px;
   padding-bottom: 64px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .amenities.container {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.block-amenities {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 64px;
 }
 
 .title-amenities {
   margin-bottom: 28px;
-  font-family: 'DM Sans', serif;
+  font-family: 'DM Sans', san-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.14;
@@ -26,7 +32,8 @@
 }
 
 .amenities-list {
-  margin-bottom: 40px;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .aminities-item {
@@ -37,9 +44,28 @@
   color: #f7f7f7;
 }
 
+.block-aminities-image {
+  position: relative;
+  width: 335px;
+  height: 399px;
+}
+
+.amenities-bathroom-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.amenities-toiletries-image {
+  position: absolute;
+  top: 144px;
+  z-index: 1;
+}
+
 .amenities-btn {
-  display: block;
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
   margin-top: 32px;
   border: 0.8px solid #f7f7f7;
   border-radius: 32px;
@@ -53,23 +79,19 @@
   color: #f7f7f7;
 }
 
-.amenities-bathroom-image {
-  position: relative;
-  margin-left: auto;
-}
-
-.amenities-toiletries-image {
-  position: absolute;
-}
-
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 767px) {
   .amenities.container {
-    width: 1440px;
+    width: 335px;
   }
 }
+
 @media screen and (min-width: 768px) {
- 
+  .amenities.container {
+    width: 704px;
+  }
+
   .title-amenities {
+    margin-bottom: 40px;
     font-size: 40px;
     line-height: 1.1;
   }
@@ -78,10 +100,54 @@
     font-size: 18px;
     line-height: 1.33;
   }
+  .block-aminities-image {
+    width: 704px;
+    height: 525px;
+  }
+
+  .amenities-toiletries-image {
+    top: 157px;
+  }
+
+  .amenities-btn {
+    left: 0;
+    bottom: 114px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-amenities {
+    padding-top: 94px;
+    padding-bottom: 100px;
+  }
+
+  .amenities.container {
+    width: 1373px;
+  }
 
   .block-amenities {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-right: 232px;
+    margin-bottom: -120px;
+    gap: 100px;
+  }
+
+  .block-general-amenities {
+    margin-right: 55px;
+  }
+
+  .block-bedroom-amenities {
+    margin-right: 230px;
+  }
+
+  .block-aminities-image {
+    margin-left: auto;
+    width: 848px;
+    height: 636px;
+  }
+
+  .amenities-btn {
+    font-size: 18px;
+    bottom: 177px;
   }
 }
