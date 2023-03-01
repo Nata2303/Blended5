@@ -33,7 +33,8 @@
   border-radius: 32px;
   background-color: transparent;
 
-  transition: background-color var(--cubik-bezier), border-color var(--cubik-bezier);
+  transition: background-color var(--cubik-bezier),
+    border-color var(--cubik-bezier);
 }
 
 .home-btn-list {
@@ -89,7 +90,78 @@
   background-image: url(../img/hero-bg-img/hero-bg-img-mobile.jpg);
 }
 
+/* Book a Room Modal window */
 
+
+
+.label-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-btn-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.room-close {
+  width: 28px;
+  height: 28px;
+}
+
+.modal-input,
+select {
+  outline: none;
+}
+
+.modal-input:focus:invalid{
+  border: 1px solid red ;
+  border-radius: 4px;
+
+}
+
+.modal-input:focus:valid{
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.datetime-wrap {
+  position: relative;
+}
+
+.label-wrap{
+  position: relative;
+}
+
+.datetime::after {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  display: block;
+  content: ' ';
+  width: 12px;
+  height: 12px;
+  background-color: var(--primery-color);
+
+  background-image: url(../img/chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+  cursor: pointer;
+}
+
+
+
+/* MEDIA */
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -139,6 +211,23 @@
     .hero-pic {
       background-image: url(../img/hero-bg-img/hero-bg-img-tablet@2x.jpg);
     }
+  }
+
+  .room-btn-close {
+    width: 32px;
+    height: 32px;
+  }
+
+  .modal.room-modal {
+    display: flex;
+    flex-direction: column;
+    width: 628px;
+    height: 572px;
+  }
+
+  .modal-title {
+    font-size: 36px;
+    line-height: 1.1;
   }
 }
 
