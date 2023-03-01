@@ -22,8 +22,16 @@ font-style: normal;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 375px;
+    width: 100%;
 }
+@media screen and (min-width: 375px) {
+    .restaurant-container {
+  
+      width: 375px;
+      padding: 40px 20px;
+      margin: 0 auto;
+    }
+  }
 .titel-menu {
 font-weight: 700;
 font-size: 32px;
@@ -44,6 +52,7 @@ color: var(--color-text-one);
 margin-bottom: 32px;
 }
 .price{
+    display: flex;
 margin-left: auto;
 margin-bottom: 14px;
 font-style: normal;
@@ -60,7 +69,7 @@ color: var(--color-text-one);
 .dishes-left{
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
+ margin-right: auto;}
 
 .name_dish {
 font-style: normal;
@@ -72,7 +81,10 @@ margin-top: 14px;
 margin-bottom: 8px;
 }
 .portion {
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
+    margin-top: 14px;
    font-weight: 400;
 font-size: 12px;
 line-height: 14px;
@@ -80,6 +92,7 @@ color: rgba(216, 215, 215, 0.5);
 }
 
 .ingredients {
+    width: 233px;
 font-weight: 400;
 font-size: 10px;
 line-height: 14px;
@@ -94,6 +107,10 @@ padding-bottom: 14px;
     display: none;
 
 }
+.restaurant-menu-btn-div{
+    margin-right: 124px;
+}
+
 .restaurant-menu-btn {
 font-style: normal;
 font-weight: 400;
@@ -109,12 +126,98 @@ border: 0.8px solid #F7F7F7;
 border-radius: 32px;
 margin-top: 32px;
 margin-bottom: 64px;
- margin-right: 124px;
-
 }
 .restaurant-menu-btn:hover,
 .restaurant-menu-btn:focus{
     background-color: var(--color-text-one);
     color: var(--text-and-background-color-two);
 }
+/*-------TABLET-----*/
+@media screen and (min-width: 768px) {
+    .restaurant-container{
+    width: 768px;
+    padding-left:126px;
+    padding-right: 126px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .titel-menu {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-one);
+    margin-bottom: 36px;
+    
+    }
+    .titel-menu-two {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--color-text-one);
+    margin-bottom: 32px;
+    }
+    .restaurant-salad-container,
+.restaurant-snack-container,
+.restaurant-dessert,
+.restaurant-drink {
+    display: none;
 
+}
+.price{
+
+        display: flex;
+    margin-left: auto;
+    margin-bottom: 14px;   
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33;
+   
+}
+
+.name_dish {
+    font-size: 18px;
+line-height: 1.33;  
+   
+    }
+    .portion {
+        margin-left: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    }
+    
+    .ingredients { 
+    box-sizing: content-box;
+    width: 325px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(216, 215, 215, 0.5);
+    padding-bottom: 14px;
+    }
+    
+    .restaurant-menu-btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--color-text-one);
+        padding-top: 8px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 8px;
+        background-color: transparent;
+        border: 0.8px solid #F7F7F7;
+        border-radius: 32px;
+        margin-top: 32px;
+        margin-bottom: 64px;
+      
+}}
+/*----DESKTOP---*/
+@media screen and (min-width: 1440px){
+  
+}
+    
