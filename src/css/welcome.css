@@ -3,7 +3,9 @@
     padding-bottom: 64px;
 }
 
-.welcome-container {}
+.welcome-container {
+    margin: auto;
+}
 
 .welcome-container-desc {
     display: none;
@@ -21,7 +23,9 @@
 .welcome-accent {
     font-style: italic;
 }
-
+.welcome-text-common {
+    
+}
 .welcome-text {
     font-weight: 400;
     font-size: 14px;
@@ -43,10 +47,17 @@
 }
 
 @media screen and (min-width: 375px) {
-    
+    .welcome-container {
+        width: 375px;
+    }
 }
 
 @media screen and (min-width: 768px) {
+    .welcome-container {
+            width: 768px;
+            
+        }
+
 .welcome-title {
         font-size: 36px;
         line-height: 1.11;
@@ -66,6 +77,7 @@
 
 .welcome-image {
     margin-top: 40px;
+    width: 704px;
 }
 .welcome-container-mob {
     width: 704px;
@@ -76,6 +88,7 @@
 .welcome-container {
     display: flex;
     padding-top: 100px;
+    width: 1440px;
 }
 .welcome-container-mob {
     display: none;
