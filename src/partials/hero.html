@@ -47,6 +47,7 @@
           type="text"
           class="modal-input"
           placeholder="Your name"
+          pattern="[A-z]{2,20}"
           required
         />
         <label class="form-text" for="room-name"
@@ -59,12 +60,14 @@
           type="tel"
           class="modal-input"
           placeholder="+ 38 ()"
+          pattern="\+?[0-9]{3}-[0-9]{3}-[0-9]+{4}"
+         
           required
         />
         <label class="form-text" for="room-tel"> Phone number</label>
       </div>
       <div class="label-wrap">
-        <select class="select " name="room-select" id="room-select">
+        <select class="select " name="room-select" id="room-select" >
           <option value="date">TODAY</option>
           <option value="1">02.02.2023</option>
           <option value="2">03.02.2023</option>

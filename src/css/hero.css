@@ -125,6 +125,17 @@ select {
   outline: none;
 }
 
+.modal-input:focus:invalid{
+  border: 1px solid red ;
+  border-radius: 4px;
+
+}
+
+.modal-input:focus:valid{
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
 .datetime-wrap {
   position: relative;
 }
