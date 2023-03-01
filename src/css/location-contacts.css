@@ -78,6 +78,8 @@
   .location-container {
     margin: 0 auto;
     width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .location-wrap {
@@ -88,11 +90,6 @@
 
   .location-address {
     margin-bottom: 0;
-  }
-
-  .location-container {
-    padding-left: 32px;
-    padding-right: 32px;
   }
 
   .location-contacts {

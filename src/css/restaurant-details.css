@@ -124,8 +124,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-   width: auto;
-   height: 80%;
+  width: auto;
+  height: 70%;
   overflow: auto;
   padding: 32px;
   background-color: var(--text-and-background-color-two);
@@ -265,6 +265,8 @@
   .restaurant-container {
     margin: 0 auto;
     width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .restaurant-title-list {
@@ -279,11 +281,6 @@
 
   .restaurant-suptitle{
     margin-bottom: 0;
-  }
-
-  .restaurant-btn{
-   margin-right: auto;
-   margin-left: 124px;
   }
 
   .form-btn{
@@ -317,7 +314,7 @@
     margin-left: auto;
     position: absolute;
     top:0 ;
-    right: 0;
+    right: 33px;
   }
 
   .restaurant-item:nth-child(2) {
