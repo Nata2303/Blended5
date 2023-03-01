@@ -226,6 +226,10 @@ select {
 }
 
 @media screen and (min-width: 1440px) {
+
+  .form-btn{
+    width: 444px;
+  }
   .header {
     background-color: transparent;
     position: absolute;
