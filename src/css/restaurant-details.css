@@ -2,11 +2,6 @@
   padding-top: 64px;
 }
 
-.restaurant-container {
-  margin: 0 auto;
-  width: 375px;
-}
-
 .restaurant-title {
   font-family: 'DM Sans';
   font-weight: 500;
@@ -262,7 +257,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .restaurant-container {
+  .restaurant-details-container {
     margin: 0 auto;
     width: 768px;
     padding-left: 32px;
@@ -297,7 +292,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .restaurant-container {
+  .restaurant-details-container {
     margin: 0 auto;
     width: 1376px;
     display: flex;
