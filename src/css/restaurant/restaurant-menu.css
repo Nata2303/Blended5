@@ -117,4 +117,45 @@ margin-bottom: 64px;
     background-color: var(--color-text-one);
     color: var(--text-and-background-color-two);
 }
+@media screen and (min-width: 768px) {
+    .restaurant-container{
+    max-width: 704px;
+    padding-left:127px;
+    padding-right: 127px;
+    padding-top: 50px;
+    padding-bottom: 27px;
+  }
+  .titel-menu {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-one);
+    margin-bottom: 36px;
+    
+    }
+    .titel-menu-two {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--color-text-one);
+    margin-bottom: 32px;
+    }
+    .restaurant-salad-container,
+.restaurant-snack-container,
+.restaurant-dessert,
+.restaurant-drink {
+    display: none;
+
+}
+.price{
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--color-text-one);
+}
 
