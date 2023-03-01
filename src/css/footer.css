@@ -4,7 +4,6 @@
   padding-top: 80px;
   padding-bottom: 32px;
   background-color: var(--text-and-background-color-one);
-  z-index: -1;
   position: relative;
 }
 
@@ -67,15 +66,14 @@
  padding-bottom: 48px;
 }
 
+.footer-container{
+  width: 704px;
+}
+
 .footer::after{
   bottom: 48px;
 }
 
-.footer-container{
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 768px;
-}
 }
 
 @media screen and (min-width: 1440px) {
@@ -88,8 +86,8 @@
 }
 
 .footer-container{
-  width: 1376px;
   padding-bottom: 80px;
+  width: 1376px;
 }
 
 .footer-list.none {
