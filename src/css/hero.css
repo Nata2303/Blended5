@@ -33,8 +33,15 @@
   border-radius: 32px;
   background-color: transparent;
 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+
   transition: background-color var(--cubik-bezier),
-    border-color var(--cubik-bezier);
+    border-color var(--cubik-bezier), color var(--cubik-bezier);;
 }
 
 .home-btn-list {
@@ -48,20 +55,7 @@
 .hero-button:is(:hover, :focus) {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
-}
-.hero-button:is(:hover, :focus) > .hero-btn-link {
   color: var(--primery-color);
-}
-
-.hero-btn-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: var(--secondary-color);
-
-  transition: color var(--cubik-bezier);
 }
 
 .home-text-wrap {
