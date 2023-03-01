@@ -783,7 +783,96 @@
     </ul>
   </div>
 </footer>
-script type="module" src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-------Modal-book-a-table-->
+        
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" data-modal-close>
+              <svg class="btn-close" width="13" height="13">
+                <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
+              </svg>
+            </button>
+            <p class="modal-title list">
+              book a table
+            </p>
+            <form class="form">
+                <label class="label-name">
+                <input type="text" class="modal-input" placeholder="Your name"  required>
+                 <span class="form-text">Who should book a table for?</span>
+               </label> 
+              <div class="select-wrap">
+                <label >
+               <select class="select" name="number">
+               <option class="option-number">NUMBER OF PEOPLE</option>
+               <option class="option-number" value="1">1</option>
+               <option class="option-number" value="2">2</option>
+               <option class="option-number" value="3">3</option>
+               <option class="option-number" value="5">5</option>
+              </select>
+              </label>
+              </div>
+                <label class="label-name">
+                <input type="tel" class="modal-input" placeholder="+ 38()"   required>
+                 <span class="form-text">Phone number</span>
+               </label>
+               
+               <div class="select-wrap">
+              <label class="label-name">
+                <select class="select" name="date-number">
+               <option value="date">TODAY</option>
+               <option value="1">02.02.2023</option>
+               <option value="2">03.02.2023</option>
+               <option value="3">04.02.2023</option>
+              </select>
+               <span class="form-text">What date to book?</span>
+              </label>
+               </div>
+              
+              <button type="submit" class="form-btn">make a reservation</button>
+            </form>
+          </div>
+<!--Modal-prices-->
+
+<div class="backdrop is-hidden" data-modal>
+          <div class="modal-price">
+            <button type="button" class="btn-close" data-modal-close>
+              <svg width="13" height="13">
+                <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
+              </svg>
+            </button>
+            <p class="modal-title list">
+              prices per room
+            </p>
+            <p class="modal-suptitle">
+              Double suite
+            </p>
+            <form class="form">
+             <div class="form-wrap">
+              <div class="select-wrap">
+              <label class="label-name">
+                <select class="select" name="number">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">5</option>
+              </select>
+               <span class="form-text">Number of nights</span>
+              </label>
+            </div>
+
+                <label class="label-name">
+                <input type="number" class="modal-input" placeholder="1000"  required>
+                 <span class="form-text">UAH</span>
+               </label>
+               
+                </div>
+              <button type="submit" class="form-btn">make a reservation</button>
+            </form>
+        </div>
+      </div>
+
+    
+<script type="module" src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 
 
