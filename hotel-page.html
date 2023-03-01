@@ -19,7 +19,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />    
 
-    <link rel="stylesheet" href="/Blended5/assets/styles-4b763ac2.css">
+    <link rel="stylesheet" href="/Blended5/assets/styles-536bcbae.css">
   </head>
   <body>
     <main>
@@ -835,12 +835,48 @@
 
       <div class="double-lux-buttons">
         <a class="double-lux-link link" href="./room-page.html">More details</a>
-        <button class="double-lux-btn btn" type="button">View prices</button>
+        <button class="double-lux-btn btn" type="button" data-modal-open-price>View prices</button>
+        <div class="backdrop is-hidden" data-modal-price>
+          <div class="modal-price">
+            <button data-modal-close-price type="button" class="btn-close">
+              <svg width="13" height="13">
+                <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
+              </svg>
+            </button>
+            <p class="modal-title list">
+              prices per room
+            </p>
+            <p class="modal-suptitle">
+              Double suite
+            </p>
+            <form class="form">
+             <div class="form-wrap">
+              <div class="select-wrap">
+              <label class="label-name">
+                <select class="select" name="number">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">5</option>
+              </select>
+               <span class="form-text">Number of nights</span>
+              </label>
+            </div>
+
+                <label class="label-name">
+                <input type="number" class="modal-input" placeholder="1000"  required>
+                 <span class="form-text">UAH</span>
+               </label>
+               
+                </div>
+              <button type="submit" class="form-btn">make a reservation</button>
+            </form>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
+<script src="./js/modal-button.js"></script>
 <div class="triple-room-section">
   <div class="container-triple-room container">
     <div class="triple-room-galary">
@@ -1124,21 +1160,21 @@
 
     <ul class="footer-social-list list">
         <li class="footer-item">
-            <a href="" target="_blank" class="footer-svg-link">
+            <a href="https://www.instagram.com/" target="_blank" class="footer-svg-link">
                 <svg class="footer-icon" width="24" height="24">
                     <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-instagram"></use>
                 </svg>
             </a>
         </li>
         <li class="footer-item">
-            <a href="" target="_blank" class="footer-svg-link">
+            <a href="https://www.facebook.com/" target="_blank" class="footer-svg-link">
                 <svg class="footer-icon" width="24" height="24">
                     <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-facebook"></use>
                 </svg>
             </a>
         </li>
         <li class="footer-item">
-            <a href="" target="_blank" class="footer-svg-link" >
+            <a href="https://twitter.com/" target="_blank" class="footer-svg-link" >
                 <svg class="footer-icon" width="24" height="24">
                     <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-twitter"></use>
                 </svg>
