@@ -18,20 +18,18 @@ font-style: normal;
     background-color: var(--text-and-background-color-two);
 }
 .restaurant-container{
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
+    
+        width: 100%;
+        padding: 0 20px 0 20px;
+        margin: 0 auto;
+      
 }
 @media screen and (min-width: 375px) {
     .restaurant-container {
-  
       width: 375px;
       padding: 40px 20px;
-      margin: 0 auto;
     }
-  }
+ 
 .titel-menu {
 font-weight: 700;
 font-size: 32px;
@@ -100,13 +98,13 @@ color: rgba(216, 215, 215, 0.5);
 padding-bottom: 14px;
 }
 
-.restaurant-salad-container,
+/*.restaurant-salad-container,
 .restaurant-snack-container,
 .restaurant-dessert,
 .restaurant-drink {
     display: none;
 
-}
+}*/
 .restaurant-menu-btn-div{
     margin-right: 124px;
 }
@@ -131,7 +129,7 @@ margin-bottom: 64px;
 .restaurant-menu-btn:focus{
     background-color: var(--color-text-one);
     color: var(--text-and-background-color-two);
-}
+} }
 /*-------TABLET-----*/
 @media screen and (min-width: 768px) {
     .restaurant-container{
@@ -159,13 +157,7 @@ margin-bottom: 64px;
     color: var(--color-text-one);
     margin-bottom: 32px;
     }
-    .restaurant-salad-container,
-.restaurant-snack-container,
-.restaurant-dessert,
-.restaurant-drink {
-    display: none;
 
-}
 .price{
 
         display: flex;
@@ -214,10 +206,17 @@ line-height: 1.33;
         border-radius: 32px;
         margin-top: 32px;
         margin-bottom: 64px;
-      
-}}
+    }  }
+
 /*----DESKTOP---*/
 @media screen and (min-width: 1440px){
-  
-}
+    .restaurant-container{
+        width: 100%;
+        padding-left:168px;
+        padding-right: 168px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+ }
     
