@@ -7,7 +7,7 @@
 }
 
 .container-triple-room {
-  max-width: 335px;
+  width: 335px;
   padding: 0;
 }
 
@@ -93,7 +93,7 @@
   }
 
   .container-triple-room {
-    max-width: 704px;
+    width: 704px;
   }
 
   .triple-room-galary-list {
@@ -160,7 +160,7 @@
   }
 
   .container-triple-room {
-    max-width: 1376px;
+    width: 1376px;
   }
 
   .triple-room-galary-list {
