@@ -31,6 +31,23 @@ font-style: normal;
       padding: 40px 20px;
       margin: 0 auto;
     }
+<<<<<<< Updated upstream
+=======
+    .restaurant-salad-container{
+    display: none;
+}
+.restaurant-snack-container{
+    display: none;
+}
+.drinks {
+    display: none;
+
+}
+.restaurant-menu-btn-div {
+        display:none;
+     
+    }
+>>>>>>> Stashed changes
   }
 .titel-menu {
 font-weight: 700;
@@ -62,6 +79,7 @@ line-height: 18px;
 color: var(--color-text-one);
 
 }
+
 .dishes-right{
     display: flex;
 
@@ -100,6 +118,7 @@ color: rgba(216, 215, 215, 0.5);
 padding-bottom: 14px;
 }
 
+<<<<<<< Updated upstream
 .restaurant-salad-container,
 .restaurant-snack-container,
 .drinks {
@@ -111,6 +130,11 @@ padding-bottom: 14px;
 .restaurant-menu-btn-div{
     display: none;
 }
+=======
+  
+
+
+>>>>>>> Stashed changes
 
 .restaurant-menu-btn {
 font-style: normal;
@@ -210,10 +234,18 @@ line-height: 1.33;
         border-radius: 32px;
         margin-top: 32px;
         margin-bottom: 64px;
+<<<<<<< Updated upstream
       
 }}
 /*----DESKTOP---*/
 @media screen and (min-width: 1376px){
+=======
+        justify-content: center;
+      
+}}
+/*----DESKTOP---*/
+@media screen and (min-width: 1440px){
+>>>>>>> Stashed changes
 
     .restaurant-container{
      width: 1109px;
@@ -221,6 +253,7 @@ line-height: 1.33;
      padding-top: 100px;
      padding-bottom: 100px;
     }
+<<<<<<< Updated upstream
     .titel-menu {
         font-weight: 700;
         font-size: 40px;
@@ -244,6 +277,13 @@ line-height: 1.33;
     .restaurant-menu-btn-div {
         display: block;
      }
+=======
+
+    .restaurant-menu-btn-div {
+        display: block;
+     
+    }
+>>>>>>> Stashed changes
 
      .resto-container {
     display: flex;
@@ -251,6 +291,7 @@ line-height: 1.33;
     column-gap: 74px;
     row-gap: 56px;
 }
+<<<<<<< Updated upstream
 .ingredients- { 
     margin-right: 116px;
     box-sizing: content-box;
@@ -267,13 +308,23 @@ line-height: 1.33;
 
 .restaurant-snack-container,
 .drinks {
+=======
+
+
+.restaurant-salad-container,
+.restaurant-snack-container,
+.restaurant-drink {
+>>>>>>> Stashed changes
     display: block;
 }
 
 .deserts-cake-item {
     display: flex;
     align-items: baseline;
+<<<<<<< Updated upstream
     border-bottom:  1px solid rgba(255, 255, 255, 0.5);;
+=======
+>>>>>>> Stashed changes
 }
 
 .deserts-cake {
@@ -283,6 +334,7 @@ line-height: 1.33;
 .drink-item {
     display: flex;
     align-items: baseline;
+<<<<<<< Updated upstream
     border-bottom:  1px solid rgba(255, 255, 255, 0.5);;
 
 }
@@ -309,4 +361,17 @@ margin-top: 28px;
     }
   
 }
+=======
+}
+  
+.restaurant-btn-div{
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+}
+
+
+>>>>>>> Stashed changes
     
