@@ -7,7 +7,7 @@
 }
 
 .container-four-room {
-  max-width: 335px;
+  width: 335px;
   padding: 0;
 }
 
@@ -89,7 +89,7 @@
   }
 
   .container-four-room {
-    max-width: 704px;
+    width: 704px;
   }
 
   .four-room-galary-list {
@@ -153,7 +153,7 @@
   }
 
   .container-four-room {
-    max-width: 1376px;
+    width: 1376px;
   }
 
   .four-room-galary-list {
