@@ -2,11 +2,6 @@
   padding-top: 64px;
 }
 
-.restaurant-container {
-  margin: 0 auto;
-  width: 375px;
-}
-
 .restaurant-title {
   font-family: 'DM Sans';
   font-weight: 500;
@@ -50,8 +45,8 @@
 }
 
 .restaurant-title-list {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .restaurant-list {
@@ -95,173 +90,9 @@
   color: var(--text-and-background-color-one);
 }
 
-.backdrop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-  background-color: rgba(46, 47, 66, 0.4);
-  opacity: 1;
-  transition: opacity var(---timing-function);
-}
-
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transition: visibility var(---timing-function),
-    opacity var(---timing-function);
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
-}
-
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-   width: auto;
-   height: 80%;
-  overflow: auto;
-  padding: 32px;
-  background-color: var(--text-and-background-color-two);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform var(---timing-function);
-}
-
-.modal-title {
-  font-style: italic;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  margin-bottom: 60px;
-  text-transform: uppercase;
-  color: var(--text-and-background-color-one);
-}
-
-.btn-close {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.user-name {
-  font-weight: 500;
-  font-size: 14px;
-  display: flex;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-}
-
-.number-people {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-}
-
-.modal-input {
-  background-color: transparent;
-  border: none;
-  width: 266px;
-  height: 36px;
-  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
-  margin-bottom: 8px;
-  color: #f7f7f7;
-  position: relative;
-}
-
-.modal-input::placeholder {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #f7f7f7;
-  margin-bottom: 18px;
-}
-
-.select {
-  width: 266px;
-  height: 36px;
-  background-color: transparent;
-  color: var(--text-and-background-color-one);
-  border: none;
-  margin-bottom: 8px;
-  border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
-}
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  row-gap: 60px;
-  column-gap: 32px;
-}
-
-.label-name {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-text {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 12px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #d8d7d7;
-}
-
-.form-btn {
-  border: 0.8px solid #f7f7f7;
-  border-radius: 32px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 14px 48px;
-  background-color: transparent;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: -0.02em;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  transition: background-color 250ms liner, color 250ms liner;
-}
-
-.form-btn:is(:hover, :focus) {
-  background-color: #ffffff;
-  color: var(--text-and-background-color-two);
-}
-
 @media screen and (min-width: 768px) {
-  .restaurant-container {
-    margin: 0 auto;
-    width: 768px;
+  .restaurant-details-container {
+    width: 704px;
   }
 
   .restaurant-title-list {
@@ -274,31 +105,13 @@
     padding-right: 32px;
   }
 
-  .restaurant-suptitle{
+  .restaurant-suptitle {
     margin-bottom: 0;
   }
-
-  .restaurant-btn{
-   margin-right: auto;
-   margin-left: 124px;
-  }
-
-  .form-btn{
-     padding: 14px 133px;
-     font-size: 18px;
-     line-height: 1.33;
-  }
-
-  .modal{
-  width: 628px;
-  height: 476px;
-  }
-
 }
 
 @media screen and (min-width: 1440px) {
-  .restaurant-container {
-    margin: 0 auto;
+  .restaurant-details-container {
     width: 1376px;
     display: flex;
     flex-wrap: wrap;
@@ -313,8 +126,8 @@
   .restaurant-btn {
     margin-left: auto;
     position: absolute;
-    top:0 ;
-    right: 0;
+    top: 0;
+    right: 33px;
   }
 
   .restaurant-item:nth-child(2) {

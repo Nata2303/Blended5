@@ -77,6 +77,8 @@
   padding: 8px 18px;
 }
 
+
+
 @media screen and (min-width: 375px) {
   .double-lux-container {
     width: 375px;
@@ -155,6 +157,8 @@
   .double-lux-btn {
     margin-left: 14px;
   }
+
+
 }
 @media screen and (min-width: 1440px) {
   /* .container {
