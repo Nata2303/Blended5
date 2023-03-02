@@ -246,6 +246,7 @@ body {
 /* HOTEL_HEADER */
 
 .header.variable {
+  position: unset;
   background-color: var(--color-variable);
 }
 
