@@ -4,7 +4,7 @@
     padding-bottom: 32px;
 }
 .container-hotel-det {
-
+margin: auto;
 }
 .hotel-det-title {
     font-weight: 500;
@@ -90,11 +90,17 @@ margin-right: 14px;
 
 
 @media screen and (min-width: 375px) {
+.container-hotel-det {
+    width: 375px;
+}
 
 }
 
 @media screen and (min-width: 768px) {
 
+    .container-hotel-det {
+            width: 768px;
+        }
 .pic-one {
     display: flex;
     margin-bottom: 16px;
@@ -166,7 +172,7 @@ display: block;
 
 @media screen and (min-width: 1440px) {
 .container-hotel-det {
-   
+   width: 1440px;
 }
 .hotel-det-btns-desk {
     
