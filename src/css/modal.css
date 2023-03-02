@@ -4,7 +4,10 @@
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
-
+.modal-close{
+  background-color: transparent;
+  border: none;
+}
 
 .backdrop {
   position: fixed;
@@ -167,7 +170,7 @@
 }
 
 .form-btn {
-  border: 0.8px solid --color-text;
+  border: 0.8px solid var(--color-text);
   border-radius: 32px;
   margin-left: auto;
   margin-right: auto;
