@@ -18,18 +18,20 @@ font-style: normal;
     background-color: var(--text-and-background-color-two);
 }
 .restaurant-container{
-    
-        width: 100%;
-        padding: 0 20px 0 20px;
-        margin: 0 auto;
-      
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
 }
 @media screen and (min-width: 375px) {
     .restaurant-container {
+  
       width: 375px;
       padding: 40px 20px;
+      margin: 0 auto;
     }
- 
+  }
 .titel-menu {
 font-weight: 700;
 font-size: 32px;
@@ -98,15 +100,16 @@ color: rgba(216, 215, 215, 0.5);
 padding-bottom: 14px;
 }
 
-/*.restaurant-salad-container,
+.restaurant-salad-container,
 .restaurant-snack-container,
-.restaurant-dessert,
-.restaurant-drink {
+.drinks {
     display: none;
 
-}*/
+}
+
+
 .restaurant-menu-btn-div{
-    margin-right: 124px;
+    display: none;
 }
 
 .restaurant-menu-btn {
@@ -129,7 +132,7 @@ margin-bottom: 64px;
 .restaurant-menu-btn:focus{
     background-color: var(--color-text-one);
     color: var(--text-and-background-color-two);
-} }
+}
 /*-------TABLET-----*/
 @media screen and (min-width: 768px) {
     .restaurant-container{
@@ -189,6 +192,7 @@ line-height: 1.33;
     line-height: 1.28;
     color: rgba(216, 215, 215, 0.5);
     padding-bottom: 14px;
+
     }
     
     .restaurant-menu-btn {
@@ -206,17 +210,103 @@ line-height: 1.33;
         border-radius: 32px;
         margin-top: 32px;
         margin-bottom: 64px;
-    }  }
-
+      
+}}
 /*----DESKTOP---*/
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1376px){
+
     .restaurant-container{
-        width: 100%;
-        padding-left:168px;
-        padding-right: 168px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+     width: 1109px;
+     padding: 0;
+     padding-top: 100px;
+     padding-bottom: 100px;
     }
+    .titel-menu {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 0.8;
+        font-style: normal;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--color-text-one);
+        margin-bottom: 100px;
+        
+        }
+        .restaurant-drink,
+        .restaurant-dessert,
+        .restaurant-menu-btn-div,
+    .restaurant-snack-container,
+    .food-menu-hot{
+        width: 516px;
+    }
+    .restaurant-menu-btn-div {
+        display: block;
+     }
+
+     .resto-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 74px;
+    row-gap: 56px;
+}
+.ingredients- { 
+    margin-right: 116px;
+    box-sizing: content-box;
+    width: 325px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(216, 215, 215, 0.5);
+    padding-bottom: 14px;
     
- }
+    }
+
+
+
+.restaurant-snack-container,
+.drinks {
+    display: block;
+}
+
+.deserts-cake-item {
+    display: flex;
+    align-items: baseline;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);;
+}
+
+.deserts-cake {
+    margin-bottom: 50px;
+}
+
+.drink-item {
+    display: flex;
+    align-items: baseline;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);;
+
+}
+.titel-menu-two-{
+    font-style: italic;
+font-weight: 700;
+font-size: 24px;
+line-height: 0.75;
+color: var(--color-text-one);
+margin-top: 28px;
+}
+.restaurant-menu-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--color-text-one);
+    padding:9px, 24px, 9px, 24px;
+    background-color: transparent;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;
+    margin-top: 72px;
+    margin-bottom: 101px;
+    }
+  
+}
     
