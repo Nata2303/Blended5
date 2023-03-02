@@ -1,3 +1,6 @@
 flatpickr('input[type=datetime]', {
-  dateFormat: 'd/m/y',
+  datetime: {
+    enableTime: false,
+    dateFormat: 'Y/m/d H:i',
+  },
 });
