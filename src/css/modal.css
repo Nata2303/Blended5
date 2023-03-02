@@ -1,4 +1,10 @@
 /*-------Modal-book-a-table--*/
+:root{
+  --color-text:#f7f7f7;
+  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+
 
 .backdrop {
   position: fixed;
@@ -89,7 +95,7 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #f7f7f7;
+  color: var(--color-text);
 }
 
 .number-people {
@@ -98,7 +104,7 @@
   line-height: 18px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #f7f7f7;
+  color: var(--color-text);
 }
 
 .modal-input {
@@ -108,7 +114,7 @@
   height: 36px;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
   margin-bottom: 8px;
-  color: #f7f7f7;
+  color: var(--color-text);
   position: relative;
 }
 
@@ -121,7 +127,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  color: #f7f7f7;
+  color: var(--color-text);
   margin-bottom: 18px;
 }
 
@@ -161,7 +167,7 @@
 }
 
 .form-btn {
-  border: 0.8px solid #f7f7f7;
+  border: 0.8px solid --color-text;
   border-radius: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -172,12 +178,12 @@
   letter-spacing: -0.02em;
   cursor: pointer;
   text-transform: uppercase;
-  color: #f7f7f7;
+  color: var(--color-text);
   transition: background-color 250ms liner, color 250ms liner;
 }
 
 .form-btn:is(:hover, :focus) {
-  background-color: #ffffff;
+  background-color: #fff;
   color: var(--text-and-background-color-two);
 }
 
