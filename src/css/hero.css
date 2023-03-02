@@ -39,7 +39,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--secondary-color);
-
+  cursor: pointer;
   transition: background-color var(--cubik-bezier),
     border-color var(--cubik-bezier), color var(--cubik-bezier);;
 }

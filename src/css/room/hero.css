@@ -175,6 +175,7 @@
   }
 
    .other-wrap {
+    position: relative;
     display: flex;
     justify-content: space-between;
   }
@@ -193,7 +194,7 @@
 
   .other-text{
     position: absolute;
-    bottom: 48px;
+    bottom: -30px;
     left: 16px;
     margin: 0;
   }
