@@ -210,6 +210,19 @@ body {
   text-transform: uppercase;
 
   color: var(--secondary-color);
+
+  
+  transition: transform var(--cubik-bezier);
+}
+
+.nav-list-item{
+  transition: transform var(--cubik-bezier);
+
+}
+
+.nav-list-item:is(:hover,:focus){
+  transform: scale(1.5);
+  
 }
 
 .current::after {
