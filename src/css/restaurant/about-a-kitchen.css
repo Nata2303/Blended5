@@ -44,11 +44,12 @@ text-transform: uppercase;
 }
 
 .containet-about-a-kitchen{
-width: 704px;
+width: 100%;
 }
 
 .about-a-kitchen-picture-list{
    position: relative;
+   width: 704px;
    height: 515px;
    margin-bottom: 40px;
 }
@@ -56,7 +57,7 @@ width: 704px;
 .cook{
     position: absolute;
     right: 0%;
-    width: 338px;
+    width: 388px;
     height: 515px;
 }
 
@@ -96,6 +97,7 @@ width: 1376px;
    display: flex;
     flex-wrap: nowrap;
     gap: 32px;
+    width: 100%;
    height: 598px;
    margin-bottom: 0px;
 }
