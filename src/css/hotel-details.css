@@ -62,7 +62,7 @@ display: none;
 }
 .hotel-det-btns-link {
     text-decoration: none;
-    color: #F7F7F7;
+   color: inherit;
 }
 .hotel-det-btn {
     padding: 8px 18px;
@@ -77,8 +77,14 @@ display: none;
     background: none;
     min-width: 131px;
 }
-
-
+.hotel-det-btn:hover, .hotel-det-btn:focus {
+    background-color: #F7F7F7;
+    color: black;
+}
+.hotel-det-btns-link:hover, .hotel-det-btns-link:focus {
+    
+    color: black;
+}
 
 .hotel-det-btn-book {
 margin-right: 14px;
@@ -93,7 +99,6 @@ margin-right: 14px;
 .container-hotel-det {
     width: 375px;
 }
-
 }
 
 @media screen and (min-width: 768px) {
