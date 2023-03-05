@@ -1,0 +1,152 @@
+.about-a-kitchen{
+    padding-bottom: 64px;
+}
+
+.containet-about-a-kitchen{
+width: 335px;
+}
+
+.about-a-kitchen-picture-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 20px;
+    gap: 20px;
+    margin-bottom: 32px; 
+}
+
+.stake{
+    width: 158px;
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.coctail{
+    width: 157px;
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.about-a-kitchen-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about-a-kitchen-item{
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+.about-a-kitchen{
+    padding-bottom: 80px;
+}
+
+.containet-about-a-kitchen{
+width: 704px;
+}
+
+.about-a-kitchen-picture-list{
+   position: relative;
+   height: 515px;
+   margin-bottom: 40px;
+}
+
+.cook{
+    position: absolute;
+    right: 0%;
+    width: 338px;
+    height: 515px;
+}
+
+.stake{
+width: 284px;
+height: 296px;
+position: absolute;
+top: 0%;
+left: 0%;
+}
+
+.coctail{
+width: 284px;
+position: absolute;
+top: 312px;
+left: 0%;
+}
+
+.about-a-kitchen-list{
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+.about-a-kitchen{
+    padding-bottom: 100px;
+}
+
+.containet-about-a-kitchen{
+    position: relative;
+width: 1376px;
+}
+
+.about-a-kitchen-picture-list{
+   position: relative;
+   display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+   height: 598px;
+   margin-bottom: 0px;
+}
+
+.cook{
+    position: static;
+    width: 511px;
+    height: 598px;
+    flex-basis: auto;
+}
+
+.stake {
+position: static;
+left: auto;
+flex-basis: auto;
+width: 334px;
+height: 389px;
+}
+
+.coctail{
+position: static;
+top: 0%;
+left: auto;
+width: 467px;
+height: 389px;
+flex-basis: auto;
+}
+
+.about-a-kitchen-list{
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+
+.about-a-kitchen-item{
+height: 144px;
+font-weight: 500;
+font-size: 18px;
+line-height: 1.33;
+}
+
+.about-a-kitchen-item-position{
+    position: absolute;
+     width: 334px;
+    left: 549px;
+top: 421px;
+}
+
+.about-a-kitchen-item-position-two{
+    position: absolute;
+    width: 453px;
+    left: 902px;
+top: 421px;
+}
+}
