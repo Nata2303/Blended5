@@ -37,9 +37,7 @@
   color: var(--text-and-background-color-two);
 }
 
-.footer-logo:is(:hover, :focus) {
-  color: #938e8e;
-}
+
 
 .footer-desc {
   font-family: 'DM Sans';
@@ -63,8 +61,25 @@
   stroke: var(--text-and-background-color-two);
 }
 
-.footer-icon:is(:hover, :focus) {
-  stroke: #938e8e;
+
+.footer-item{
+    transition: transform var(--cubik-bezier);
+
+}
+
+.footer-item:is(:hover,:focus){
+    transform: scale(1.5);
+
+}
+
+.footer-wrap-logo{
+    transition: transform var(--cubik-bezier);
+
+}
+
+.footer-wrap-logo:is(:hover,:focus){
+    transform: scale(1.5);
+
 }
 
 @media screen and (min-width: 768px) {
@@ -115,8 +130,4 @@
     text-transform: uppercase;
     color: var(--text-and-background-color-two);
   }
-
-  .footer-link:is(:hover, :focus) {
-  color: #938e8e;
-}
 }

@@ -19,6 +19,7 @@
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
   transition: opacity var(---timing-function);
+  z-index: 1;
 }
 
 .backdrop.is-hidden {
@@ -31,6 +32,11 @@
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
+}
+.backdrop.is-hidden.activ{
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
 }
 
 .modal {
