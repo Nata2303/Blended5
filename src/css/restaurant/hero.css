@@ -116,6 +116,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--primery-color);
+  cursor: pointer;
 }
 
 .other-text {

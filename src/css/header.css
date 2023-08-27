@@ -211,18 +211,15 @@ body {
 
   color: var(--secondary-color);
 
-  
   transition: transform var(--cubik-bezier);
 }
 
-.nav-list-item{
+.nav-list-item {
   transition: transform var(--cubik-bezier);
-
 }
 
-.nav-list-item:is(:hover,:focus){
+.nav-list-item:is(:hover, :focus) {
   transform: scale(1.5);
-  
 }
 
 .current::after {
@@ -278,6 +275,14 @@ body {
   background-color: var(--primery-color);
 }
 
+.logo-wrap {
+  transition: transform var(--cubik-bezier);
+}
+
+.logo-wrap:is(:hover, :focus) {
+  transform: scale(1.5);
+}
+
 @media screen and (min-width: 375px) {
   .menu-container {
     width: 375px;
@@ -291,9 +296,16 @@ body {
   .menu-container {
     width: 768px;
   }
+  .container {
+    width: 704px;
+  }
+
+  .nav-wrap {
+    justify-content: space-between;
+  }
 
   .relativ {
-    width: 768px;
+    width: 704px;
   }
 
   .logo-mobile::after {
@@ -303,12 +315,6 @@ body {
   .mobile-icon {
     width: 24px;
     height: 24px;
-  }
-
-  .headar-soc-list {
-    position: absolute;
-    top: 27px;
-    right: 32px;
   }
 
   .menu-container {
@@ -335,8 +341,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-
-  .container{
+  .container {
     width: 1440px;
   }
 
