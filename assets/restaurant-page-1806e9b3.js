@@ -1,0 +1,1 @@
+import"./styles-fac82e35.js";import"./modalTable-86635170.js";new Swiper(".slider-img",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},keyboard:{enabled:!0,onlyInViewport:!0},preloadImages:!0,slidesPerView:1.5,simulateTouch:!0,touchRatio:3,grabCursor:!0,spaceBetween:20,initialSlide:3,breakpoints:{768:{slidesPerView:1.5},1440:{slidesPerView:1.5}}});

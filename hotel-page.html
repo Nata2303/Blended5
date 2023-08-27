@@ -28,17 +28,14 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <!-- <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
-    />   -->
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
-    <script type="module" crossorigin src="/Blended5/assets/hotel-page-7c111615.js"></script>
-    <link rel="modulepreload" crossorigin href="/Blended5/assets/main-5d7e2f69.js">
-    <link rel="stylesheet" href="/Blended5/assets/main-3bd3291c.css">
+    <script type="module" crossorigin src="/Blended5/assets/hotel-page-73d3228f.js"></script>
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/styles-fac82e35.js">
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/modalPrice-466377df.js">
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/modalRoom-dfe59c4e.js">
+    <link rel="stylesheet" href="/Blended5/assets/styles-34d8884a.css">
   </head>
   <body>
     <main>
@@ -186,13 +183,17 @@
   <div class="container">
     <div class="other-wrap">
       <div class="hero-position">
-        <h1 class="other-hero-title animate__animated animate__backInRight animate__repeat-2">hotel</h1>
+        <h1
+          class="other-hero-title animate__animated animate__backInRight animate__repeat-2"
+        >
+          hotel
+        </h1>
         <ul class="other-btn-list list">
           <li class="other-btn-item">
-            <button class="other-btn" type="button">book a room</button>
+            <button class="other-btn" type="button" data-modal-open>book a room</button>
           </li>
           <li class="other-btn-item">
-            <button class="other-btn" type="button" data-modal-open-second>View prices</button>
+            <button class="other-btn" type="button" data-open-price>View prices</button>
           </li>
         </ul>
       </div>
@@ -566,12 +567,11 @@
         </div>
       </div>
       <p class="other-text">
-      Whether you're in the mood for a hearty breakfast, a light lunch, or
-      <span class="other-text-accent">a romantic dinner</span>, our menu has
-      something for everyone.
-    </p>
+        Whether you're in the mood for a hearty breakfast, a light lunch, or
+        <span class="other-text-accent">a romantic dinner</span>, our menu has
+        something for everyone.
+      </p>
     </div>
-    
   </div>
 </section>
 
@@ -717,7 +717,7 @@
 
       <div class="double-lux-buttons">
         <a class="double-lux-link link" href="./room-page.html">More details</a>
-        <button class="double-lux-btn btn" type="button" data-modal-open>
+        <button class="double-lux-btn btn" type="button" data-open-price>
           View prices
         </button>
       </div>
@@ -855,7 +855,7 @@
         <a class="triple-room-link link" href="./room-page.html" target="_blank"
           >More details</a
         >
-        <button class="triple-room-btn btn" type="button" data-modal-open-second>View prices</button>
+        <button class="triple-room-btn btn" type="button" data-open-price>View prices</button>
       </div>
     </div>
   </div>
@@ -987,7 +987,7 @@
         <a class="four-room-link link" href="./room-page.html" target="_blank"
           >More details</a
         >
-        <button class="four-room-btn btn" data-modal-open-second  type="button">View prices</button>
+        <button class="four-room-btn btn"   type="button" data-open-price >View prices</button>
       </div>
     </div>
   </div>
@@ -1031,10 +1031,8 @@
     </ul>
   </div>
 </footer>
+    <div class="backdrop  is-hidden" data-backdrop></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
-    
-    
     
     
     

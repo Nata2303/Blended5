@@ -31,14 +31,12 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
-    /> -->
     
-    <script type="module" crossorigin src="/Blended5/assets/room-page-f8010257.js"></script>
-    <link rel="modulepreload" crossorigin href="/Blended5/assets/main-5d7e2f69.js">
-    <link rel="stylesheet" href="/Blended5/assets/main-3bd3291c.css">
+    <script type="module" crossorigin src="/Blended5/assets/room-page-c0b278f1.js"></script>
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/styles-fac82e35.js">
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/modalRoom-dfe59c4e.js">
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/modalPrice-466377df.js">
+    <link rel="stylesheet" href="/Blended5/assets/styles-34d8884a.css">
   </head>
   <body>
     <main>
@@ -189,7 +187,7 @@
         </h1>
         <ul class="other-btn-list list">
           <li class="other-btn-item">
-            <button class="other-btn" type="button">view prices</button>
+            <button class="other-btn" type="button" data-open-price>view prices</button>
           </li>
         </ul>
       </div>
@@ -682,7 +680,7 @@
           class="amenities-toiletries-image"
         />
       </picture>
-      <button class="amenities-btn btn" type="submit">book a room</button>
+      <button class="amenities-btn btn" type="submit" data-modal-open>book a room</button>
     </div>
   </div>
 </section>
@@ -725,10 +723,8 @@
     </ul>
   </div>
 </footer>
+    <div class="backdrop  is-hidden" data-backdrop></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
-    
-    
     
     
     

@@ -19,16 +19,12 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
       <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-      <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" -->
-    />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <script type="module" crossorigin src="/Blended5/assets/restaurant-page-5b4ffa9e.js"></script>
-    <link rel="modulepreload" crossorigin href="/Blended5/assets/main-5d7e2f69.js">
-    <link rel="stylesheet" href="/Blended5/assets/main-3bd3291c.css">
+    <script type="module" crossorigin src="/Blended5/assets/restaurant-page-1806e9b3.js"></script>
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/styles-fac82e35.js">
+    <link rel="modulepreload" crossorigin href="/Blended5/assets/modalTable-86635170.js">
+    <link rel="stylesheet" href="/Blended5/assets/styles-34d8884a.css">
   </head>
   <body>
     <main>
@@ -167,7 +163,7 @@
         <h1 class="other-hero-title animate__animated animate__backInRight animate__repeat-2">Restaurant</h1>
         <ul class="other-btn-list list">
           <li class="other-btn-item">
-            <button class="other-btn" type="button">book a table</button>
+            <button class="other-btn" type="button" data-modal-table>book a table</button>
           </li>
           <li class="other-btn-item">
             <button class="other-btn" type="button">View a menu</button>
@@ -682,7 +678,7 @@
         <div class="dishes-right">
   </ul></div>
   <div class="restaurant-menu-btn-div">
-        <button class="restaurant-menu-btn" type="button">
+        <button class="restaurant-menu-btn" type="button" data-modal-table>
           BOOK A TABLE
          </button></div>
     <div class="food-menu">
@@ -815,7 +811,7 @@
     </li>
   </ul>
   <div class="restaurant-menu-btn-div">
-    <button class="restaurant-menu-btn">
+    <button class="restaurant-menu-btn" data-modal-table>
       BOOK A TABLE
      </button></div>
   
@@ -859,172 +855,8 @@
     </ul>
   </div>
 </footer>
-    <!-------Modal-book-a-table-->
-        
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button type="button" class="modal-close" data-modal-close>
-              <svg class="btn-close" width="13" height="13">
-                <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
-              </svg>
-            </button>
-            <p class="modal-title list">
-              book a table
-            </p>
-            <form class="form">
-                <label class="label-name">
-                <input type="text" class="modal-input" placeholder="Your name"  required>
-                 <span class="form-text">Who should book a table for?</span>
-               </label> 
-              <div class="select-wrap">
-                <label >
-               <select class="select" name="number">
-               <option class="option-number">NUMBER OF PEOPLE</option>
-               <option class="option-number" value="1">1</option>
-               <option class="option-number" value="2">2</option>
-               <option class="option-number" value="3">3</option>
-               <option class="option-number" value="5">5</option>
-              </select>
-              </label>
-              </div>
-                <label class="label-name">
-                <input type="tel" class="modal-input" placeholder="+ 38()"   required>
-                 <span class="form-text">Phone number</span>
-               </label>
-               
-               <div class="select-wrap">
-              <label class="label-name">
-                <select class="select" name="date-number">
-               <option value="date">TODAY</option>
-               <option value="1">02.02.2023</option>
-               <option value="2">03.02.2023</option>
-               <option value="3">04.02.2023</option>
-              </select>
-               <span class="form-text">What date to book?</span>
-              </label>
-               </div>
-              
-              <button type="submit" class="form-btn">make a reservation</button>
-            </form>
-          </div>
-<!--Modal-prices-->
-
-<div class="backdrop is-hidden" data-modal>
-          <div class="modal-price">
-            <button type="button" class="btn-close" data-modal-close>
-              <svg width="13" height="13">
-                <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
-              </svg>
-            </button>
-            <p class="modal-title list">
-              prices per room
-            </p>
-            <p class="modal-suptitle">
-              Double suite
-            </p>
-            <form class="form">
-             <div class="form-wrap">
-              <div class="select-wrap">
-              <label class="label-name">
-                <select class="select" name="number">
-               <option value="1">1</option>
-               <option value="2">2</option>
-               <option value="3">3</option>
-               <option value="4">5</option>
-              </select>
-               <span class="form-text">Number of nights</span>
-              </label>
-            </div>
-
-                <label class="label-name">
-                <input type="number" class="modal-input" placeholder="1000"  required>
-                 <span class="form-text">UAH</span>
-               </label>
-               
-                </div>
-              <button type="submit" class="form-btn">make a reservation</button>
-            </form>
-        </div>
-      </div>
-
-      <!-- Book a Room Modal window -->
-<div class="backdrop room is-hidden" data-modal-room>
-  <div class="modal room-modal">
-    <button type="button" class="room-btn-close" data-modal-close-room>
-      <svg class="room-close">
-        <use href="/Blended5/assets/sprite-fff3a7fb.svg#icon-close"></use>
-      </svg>
-    </button>
-    <h2 class="modal-title">BOOK A room</h2>
-    <form class="form">
-      <div class="label-wrap">
-        <input
-          id="room-name"
-          type="text"
-          class="modal-input"
-          placeholder="Your name"
-          pattern="[A-z]{2,20}"
-          required
-        />
-        <label class="form-text" for="room-name"
-          >Who should book a table for?</label
-        >
-      </div>
-      <div class="label-wrap">
-        <input
-          id="room-tel"
-          type="tel"
-          class="modal-input"
-          placeholder="+ 38 ()"
-          pattern="\+?[0-9]{3}-[0-9]{3}-[0-9]+{4}"
-          required
-        />
-        <label class="form-text" for="room-tel"> Phone number</label>
-      </div>
-      <div class="label-wrap">
-        <select class="select" name="room-select" id="room-select">
-          <option value="date">TODAY</option>
-          <option value="1">02.02.2023</option>
-          <option value="2">03.02.2023</option>
-          <option value="3">04.02.2023</option>
-        </select>
-        <label class="form-text datetime" for="room-select"
-          >What date to book?</label
-        >
-      </div>
-      <div class="datetime-wrap label-wrap">
-        <input
-          id="room-datetime"
-          class="modal-input"
-          type="datetime"
-          placeholder="25/04/2023"
-        />
-        <label class="form-text datetime" for="room-datetime"
-          >Check-in date</label
-        >
-      </div>
-      <div class="label-wrap">
-        <select class="select" name="room-select" id="room-list">
-          <option value="date">Double suite</option>
-          <option value="1">Double luxury room</option>
-          <option value="2">Triple Room</option>
-          <option value="3">four-seater room</option>
-        </select>
-        <label class="form-text datetime" for="room-list"
-          >Number category</label
-        >
-      </div>
-      <button class="form-btn" type="submit">MAKE A RESERVATION</button>
-    </form>
-  </div>
-</div>
-
-    
+<div class="backdrop  is-hidden" data-backdrop></div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<!-- <script type="module" src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
-
-
-
 
 
 
